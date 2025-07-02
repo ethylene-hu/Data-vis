@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="experience" />
+    <node id="food" />
+    <node id="order" />
+    <node id="restaurant" />
+    <node id="back" />
+    <node id="service" />
+    <node id="customer" />
+    <node id="bar" />
+    <node id="location" />
+    <node id="menu" />
+    <node id="place" />
+    <node id="room" />
+    <node id="staff" />
+    <node id="table" />
+    <node id="area" />
+    <node id="pizza" />
+    <node id="drinks" />
+    <node id="salad" />
+    <node id="cheese" />
+    <node id="sauce" />
+    <node id="meal" />
+    <node id="chicken" />
+    <edge source="experience" target="food">
+      <data key="d0">289421</data>
+    </edge>
+    <edge source="experience" target="order">
+      <data key="d0">112188</data>
+    </edge>
+    <edge source="experience" target="restaurant">
+      <data key="d0">125596</data>
+    </edge>
+    <edge source="experience" target="back">
+      <data key="d0">241084</data>
+    </edge>
+    <edge source="experience" target="service">
+      <data key="d0">251619</data>
+    </edge>
+    <edge source="experience" target="customer">
+      <data key="d0">71661</data>
+    </edge>
+    <edge source="experience" target="bar">
+      <data key="d0">72921</data>
+    </edge>
+    <edge source="experience" target="location">
+      <data key="d0">60740</data>
+    </edge>
+    <edge source="experience" target="menu">
+      <data key="d0">96272</data>
+    </edge>
+    <edge source="experience" target="place">
+      <data key="d0">241434</data>
+    </edge>
+    <edge source="experience" target="room">
+      <data key="d0">60356</data>
+    </edge>
+    <edge source="experience" target="staff">
+      <data key="d0">138220</data>
+    </edge>
+    <edge source="experience" target="table">
+      <data key="d0">87089</data>
+    </edge>
+    <edge source="experience" target="area">
+      <data key="d0">73216</data>
+    </edge>
+    <edge source="experience" target="pizza">
+      <data key="d0">26300</data>
+    </edge>
+    <edge source="experience" target="drinks">
+      <data key="d0">62413</data>
+    </edge>
+    <edge source="experience" target="salad">
+      <data key="d0">49019</data>
+    </edge>
+    <edge source="experience" target="cheese">
+      <data key="d0">55405</data>
+    </edge>
+    <edge source="experience" target="sauce">
+      <data key="d0">54467</data>
+    </edge>
+    <edge source="experience" target="meal">
+      <data key="d0">75485</data>
+    </edge>
+    <edge source="experience" target="chicken">
+      <data key="d0">66716</data>
+    </edge>
+    <edge source="food" target="order">
+      <data key="d0">402417</data>
+    </edge>
+    <edge source="food" target="restaurant">
+      <data key="d0">469781</data>
+    </edge>
+    <edge source="food" target="back">
+      <data key="d0">623911</data>
+    </edge>
+    <edge source="food" target="service">
+      <data key="d0">920506</data>
+    </edge>
+    <edge source="food" target="meal">
+      <data key="d0">246455</data>
+    </edge>
+    <edge source="food" target="menu">
+      <data key="d0">366671</data>
+    </edge>
+    <edge source="food" target="area">
+      <data key="d0">219839</data>
+    </edge>
+    <edge source="food" target="location">
+      <data key="d0">156087</data>
+    </edge>
+    <edge source="food" target="place">
+      <data key="d0">952033</data>
+    </edge>
+    <edge source="food" target="room">
+      <data key="d0">103186</data>
+    </edge>
+    <edge source="food" target="staff">
+      <data key="d0">375753</data>
+    </edge>
+    <edge source="food" target="table">
+      <data key="d0">262534</data>
+    </edge>
+    <edge source="food" target="chicken">
+      <data key="d0">332272</data>
+    </edge>
+    <edge source="food" target="bar">
+      <data key="d0">253346</data>
+    </edge>
+    <edge source="food" target="cheese">
+      <data key="d0">213512</data>
+    </edge>
+    <edge source="food" target="pizza">
+      <data key="d0">99156</data>
+    </edge>
+    <edge source="food" target="salad">
+      <data key="d0">189294</data>
+    </edge>
+    <edge source="food" target="customer">
+      <data key="d0">103385</data>
+    </edge>
+    <edge source="food" target="drinks">
+      <data key="d0">239123</data>
+    </edge>
+    <edge source="food" target="sauce">
+      <data key="d0">213845</data>
+    </edge>
+    <edge source="order" target="restaurant">
+      <data key="d0">153758</data>
+    </edge>
+    <edge source="order" target="back">
+      <data key="d0">249404</data>
+    </edge>
+    <edge source="order" target="customer">
+      <data key="d0">70771</data>
+    </edge>
+    <edge source="order" target="place">
+      <data key="d0">315001</data>
+    </edge>
+    <edge source="order" target="service">
+      <data key="d0">264620</data>
+    </edge>
+    <edge source="order" target="salad">
+      <data key="d0">74563</data>
+    </edge>
+    <edge source="order" target="area">
+      <data key="d0">77635</data>
+    </edge>
+    <edge source="order" target="location">
+      <data key="d0">70439</data>
+    </edge>
+    <edge source="order" target="cheese">
+      <data key="d0">102263</data>
+    </edge>
+    <edge source="order" target="drinks">
+      <data key="d0">80078</data>
+    </edge>
+    <edge source="order" target="sauce">
+      <data key="d0">101374</data>
+    </edge>
+    <edge source="order" target="chicken">
+      <data key="d0">128699</data>
+    </edge>
+    <edge source="order" target="meal">
+      <data key="d0">96043</data>
+    </edge>
+    <edge source="order" target="menu">
+      <data key="d0">146848</data>
+    </edge>
+    <edge source="order" target="table">
+      <data key="d0">112641</data>
+    </edge>
+    <edge source="order" target="pizza">
+      <data key="d0">66516</data>
+    </edge>
+    <edge source="order" target="bar">
+      <data key="d0">85803</data>
+    </edge>
+    <edge source="order" target="staff">
+      <data key="d0">110415</data>
+    </edge>
+    <edge source="order" target="room">
+      <data key="d0">39128</data>
+    </edge>
+    <edge source="restaurant" target="bar">
+      <data key="d0">98747</data>
+    </edge>
+    <edge source="restaurant" target="location">
+      <data key="d0">54959</data>
+    </edge>
+    <edge source="restaurant" target="menu">
+      <data key="d0">169007</data>
+    </edge>
+    <edge source="restaurant" target="place">
+      <data key="d0">286016</data>
+    </edge>
+    <edge source="restaurant" target="room">
+      <data key="d0">50185</data>
+    </edge>
+    <edge source="restaurant" target="service">
+      <data key="d0">290669</data>
+    </edge>
+    <edge source="restaurant" target="staff">
+      <data key="d0">128594</data>
+    </edge>
+    <edge source="restaurant" target="table">
+      <data key="d0">124072</data>
+    </edge>
+    <edge source="restaurant" target="back">
+      <data key="d0">224704</data>
+    </edge>
+    <edge source="restaurant" target="chicken">
+      <data key="d0">123737</data>
+    </edge>
+    <edge source="restaurant" target="meal">
+      <data key="d0">120174</data>
+    </edge>
+    <edge source="restaurant" target="sauce">
+      <data key="d0">98524</data>
+    </edge>
+    <edge source="restaurant" target="pizza">
+      <data key="d0">38653</data>
+    </edge>
+    <edge source="restaurant" target="drinks">
+      <data key="d0">73261</data>
+    </edge>
+    <edge source="restaurant" target="area">
+      <data key="d0">92922</data>
+    </edge>
+    <edge source="restaurant" target="salad">
+      <data key="d0">84227</data>
+    </edge>
+    <edge source="restaurant" target="cheese">
+      <data key="d0">80526</data>
+    </edge>
+    <edge source="restaurant" target="customer">
+      <data key="d0">37876</data>
+    </edge>
+    <edge source="back" target="chicken">
+      <data key="d0">173611</data>
+    </edge>
+    <edge source="back" target="meal">
+      <data key="d0">139318</data>
+    </edge>
+    <edge source="back" target="menu">
+      <data key="d0">214433</data>
+    </edge>
+    <edge source="back" target="place">
+      <data key="d0">591252</data>
+    </edge>
+    <edge source="back" target="staff">
+      <data key="d0">238743</data>
+    </edge>
+    <edge source="back" target="area">
+      <data key="d0">161935</data>
+    </edge>
+    <edge source="back" target="cheese">
+      <data key="d0">140317</data>
+    </edge>
+    <edge source="back" target="salad">
+      <data key="d0">113600</data>
+    </edge>
+    <edge source="back" target="customer">
+      <data key="d0">122814</data>
+    </edge>
+    <edge source="back" target="service">
+      <data key="d0">507055</data>
+    </edge>
+    <edge source="back" target="location">
+      <data key="d0">109944</data>
+    </edge>
+    <edge source="back" target="bar">
+      <data key="d0">162418</data>
+    </edge>
+    <edge source="back" target="sauce">
+      <data key="d0">132194</data>
+    </edge>
+    <edge source="back" target="table">
+      <data key="d0">161490</data>
+    </edge>
+    <edge source="back" target="pizza">
+      <data key="d0">73320</data>
+    </edge>
+    <edge source="back" target="room">
+      <data key="d0">111068</data>
+    </edge>
+    <edge source="back" target="drinks">
+      <data key="d0">133276</data>
+    </edge>
+    <edge source="service" target="chicken">
+      <data key="d0">178497</data>
+    </edge>
+    <edge source="service" target="meal">
+      <data key="d0">162830</data>
+    </edge>
+    <edge source="service" target="menu">
+      <data key="d0">230929</data>
+    </edge>
+    <edge source="service" target="place">
+      <data key="d0">619094</data>
+    </edge>
+    <edge source="service" target="staff">
+      <data key="d0">213922</data>
+    </edge>
+    <edge source="service" target="area">
+      <data key="d0">155934</data>
+    </edge>
+    <edge source="service" target="cheese">
+      <data key="d0">129371</data>
+    </edge>
+    <edge source="service" target="salad">
+      <data key="d0">125425</data>
+    </edge>
+    <edge source="service" target="customer">
+      <data key="d0">310365</data>
+    </edge>
+    <edge source="service" target="location">
+      <data key="d0">138322</data>
+    </edge>
+    <edge source="service" target="bar">
+      <data key="d0">168942</data>
+    </edge>
+    <edge source="service" target="room">
+      <data key="d0">93908</data>
+    </edge>
+    <edge source="service" target="table">
+      <data key="d0">182986</data>
+    </edge>
+    <edge source="service" target="sauce">
+      <data key="d0">129099</data>
+    </edge>
+    <edge source="service" target="pizza">
+      <data key="d0">80070</data>
+    </edge>
+    <edge source="service" target="drinks">
+      <data key="d0">151173</data>
+    </edge>
+    <edge source="customer" target="chicken">
+      <data key="d0">20513</data>
+    </edge>
+    <edge source="customer" target="meal">
+      <data key="d0">17743</data>
+    </edge>
+    <edge source="customer" target="menu">
+      <data key="d0">23501</data>
+    </edge>
+    <edge source="customer" target="place">
+      <data key="d0">111565</data>
+    </edge>
+    <edge source="customer" target="staff">
+      <data key="d0">56639</data>
+    </edge>
+    <edge source="customer" target="area">
+      <data key="d0">31748</data>
+    </edge>
+    <edge source="customer" target="cheese">
+      <data key="d0">15749</data>
+    </edge>
+    <edge source="customer" target="salad">
+      <data key="d0">11562</data>
+    </edge>
+    <edge source="customer" target="sauce">
+      <data key="d0">13474</data>
+    </edge>
+    <edge source="customer" target="location">
+      <data key="d0">41767</data>
+    </edge>
+    <edge source="customer" target="room">
+      <data key="d0">20528</data>
+    </edge>
+    <edge source="customer" target="pizza">
+      <data key="d0">16061</data>
+    </edge>
+    <edge source="customer" target="bar">
+      <data key="d0">19381</data>
+    </edge>
+    <edge source="customer" target="table">
+      <data key="d0">23235</data>
+    </edge>
+    <edge source="customer" target="drinks">
+      <data key="d0">16024</data>
+    </edge>
+    <edge source="bar" target="chicken">
+      <data key="d0">54597</data>
+    </edge>
+    <edge source="bar" target="meal">
+      <data key="d0">49900</data>
+    </edge>
+    <edge source="bar" target="menu">
+      <data key="d0">102304</data>
+    </edge>
+    <edge source="bar" target="place">
+      <data key="d0">233586</data>
+    </edge>
+    <edge source="bar" target="staff">
+      <data key="d0">90188</data>
+    </edge>
+    <edge source="bar" target="area">
+      <data key="d0">88543</data>
+    </edge>
+    <edge source="bar" target="cheese">
+      <data key="d0">54178</data>
+    </edge>
+    <edge source="bar" target="salad">
+      <data key="d0">54575</data>
+    </edge>
+    <edge source="bar" target="location">
+      <data key="d0">38091</data>
+    </edge>
+    <edge source="bar" target="pizza">
+      <data key="d0">25679</data>
+    </edge>
+    <edge source="bar" target="room">
+      <data key="d0">52635</data>
+    </edge>
+    <edge source="bar" target="table">
+      <data key="d0">81185</data>
+    </edge>
+    <edge source="bar" target="sauce">
+      <data key="d0">46454</data>
+    </edge>
+    <edge source="bar" target="drinks">
+      <data key="d0">109530</data>
+    </edge>
+    <edge source="location" target="chicken">
+      <data key="d0">37883</data>
+    </edge>
+    <edge source="location" target="meal">
+      <data key="d0">29504</data>
+    </edge>
+    <edge source="location" target="menu">
+      <data key="d0">46994</data>
+    </edge>
+    <edge source="location" target="place">
+      <data key="d0">133960</data>
+    </edge>
+    <edge source="location" target="staff">
+      <data key="d0">92856</data>
+    </edge>
+    <edge source="location" target="area">
+      <data key="d0">54625</data>
+    </edge>
+    <edge source="location" target="cheese">
+      <data key="d0">30417</data>
+    </edge>
+    <edge source="location" target="salad">
+      <data key="d0">23587</data>
+    </edge>
+    <edge source="location" target="pizza">
+      <data key="d0">21248</data>
+    </edge>
+    <edge source="location" target="room">
+      <data key="d0">41394</data>
+    </edge>
+    <edge source="location" target="table">
+      <data key="d0">32042</data>
+    </edge>
+    <edge source="location" target="drinks">
+      <data key="d0">29764</data>
+    </edge>
+    <edge source="location" target="sauce">
+      <data key="d0">26089</data>
+    </edge>
+    <edge source="menu" target="chicken">
+      <data key="d0">115757</data>
+    </edge>
+    <edge source="menu" target="meal">
+      <data key="d0">100228</data>
+    </edge>
+    <edge source="menu" target="place">
+      <data key="d0">294119</data>
+    </edge>
+    <edge source="menu" target="staff">
+      <data key="d0">108684</data>
+    </edge>
+    <edge source="menu" target="area">
+      <data key="d0">76819</data>
+    </edge>
+    <edge source="menu" target="cheese">
+      <data key="d0">94829</data>
+    </edge>
+    <edge source="menu" target="salad">
+      <data key="d0">82418</data>
+    </edge>
+    <edge source="menu" target="room">
+      <data key="d0">39419</data>
+    </edge>
+    <edge source="menu" target="table">
+      <data key="d0">97800</data>
+    </edge>
+    <edge source="menu" target="sauce">
+      <data key="d0">93437</data>
+    </edge>
+    <edge source="menu" target="drinks">
+      <data key="d0">77310</data>
+    </edge>
+    <edge source="menu" target="pizza">
+      <data key="d0">37650</data>
+    </edge>
+    <edge source="place" target="chicken">
+      <data key="d0">240668</data>
+    </edge>
+    <edge source="place" target="meal">
+      <data key="d0">175496</data>
+    </edge>
+    <edge source="place" target="staff">
+      <data key="d0">356408</data>
+    </edge>
+    <edge source="place" target="salad">
+      <data key="d0">144419</data>
+    </edge>
+    <edge source="place" target="area">
+      <data key="d0">231600</data>
+    </edge>
+    <edge source="place" target="room">
+      <data key="d0">122731</data>
+    </edge>
+    <edge source="place" target="table">
+      <data key="d0">187173</data>
+    </edge>
+    <edge source="place" target="cheese">
+      <data key="d0">190104</data>
+    </edge>
+    <edge source="place" target="drinks">
+      <data key="d0">182081</data>
+    </edge>
+    <edge source="place" target="sauce">
+      <data key="d0">177695</data>
+    </edge>
+    <edge source="place" target="pizza">
+      <data key="d0">123340</data>
+    </edge>
+    <edge source="room" target="chicken">
+      <data key="d0">23698</data>
+    </edge>
+    <edge source="room" target="meal">
+      <data key="d0">27383</data>
+    </edge>
+    <edge source="room" target="staff">
+      <data key="d0">82403</data>
+    </edge>
+    <edge source="room" target="area">
+      <data key="d0">55422</data>
+    </edge>
+    <edge source="room" target="cheese">
+      <data key="d0">23386</data>
+    </edge>
+    <edge source="room" target="salad">
+      <data key="d0">21599</data>
+    </edge>
+    <edge source="room" target="pizza">
+      <data key="d0">10997</data>
+    </edge>
+    <edge source="room" target="sauce">
+      <data key="d0">21439</data>
+    </edge>
+    <edge source="room" target="table">
+      <data key="d0">42278</data>
+    </edge>
+    <edge source="room" target="drinks">
+      <data key="d0">27472</data>
+    </edge>
+    <edge source="staff" target="chicken">
+      <data key="d0">74738</data>
+    </edge>
+    <edge source="staff" target="meal">
+      <data key="d0">65364</data>
+    </edge>
+    <edge source="staff" target="salad">
+      <data key="d0">49773</data>
+    </edge>
+    <edge source="staff" target="area">
+      <data key="d0">99933</data>
+    </edge>
+    <edge source="staff" target="table">
+      <data key="d0">72809</data>
+    </edge>
+    <edge source="staff" target="pizza">
+      <data key="d0">40268</data>
+    </edge>
+    <edge source="staff" target="drinks">
+      <data key="d0">66942</data>
+    </edge>
+    <edge source="staff" target="cheese">
+      <data key="d0">58612</data>
+    </edge>
+    <edge source="staff" target="sauce">
+      <data key="d0">50938</data>
+    </edge>
+    <edge source="table" target="chicken">
+      <data key="d0">64698</data>
+    </edge>
+    <edge source="table" target="meal">
+      <data key="d0">77699</data>
+    </edge>
+    <edge source="table" target="area">
+      <data key="d0">54002</data>
+    </edge>
+    <edge source="table" target="cheese">
+      <data key="d0">55404</data>
+    </edge>
+    <edge source="table" target="salad">
+      <data key="d0">53100</data>
+    </edge>
+    <edge source="table" target="pizza">
+      <data key="d0">21413</data>
+    </edge>
+    <edge source="table" target="sauce">
+      <data key="d0">58502</data>
+    </edge>
+    <edge source="table" target="drinks">
+      <data key="d0">71018</data>
+    </edge>
+    <edge source="area" target="chicken">
+      <data key="d0">57165</data>
+    </edge>
+    <edge source="area" target="meal">
+      <data key="d0">45094</data>
+    </edge>
+    <edge source="area" target="cheese">
+      <data key="d0">46910</data>
+    </edge>
+    <edge source="area" target="salad">
+      <data key="d0">36128</data>
+    </edge>
+    <edge source="area" target="pizza">
+      <data key="d0">32960</data>
+    </edge>
+    <edge source="area" target="sauce">
+      <data key="d0">44185</data>
+    </edge>
+    <edge source="area" target="drinks">
+      <data key="d0">47141</data>
+    </edge>
+    <edge source="pizza" target="chicken">
+      <data key="d0">35515</data>
+    </edge>
+    <edge source="pizza" target="meal">
+      <data key="d0">19139</data>
+    </edge>
+    <edge source="pizza" target="cheese">
+      <data key="d0">64241</data>
+    </edge>
+    <edge source="pizza" target="salad">
+      <data key="d0">38854</data>
+    </edge>
+    <edge source="pizza" target="sauce">
+      <data key="d0">54162</data>
+    </edge>
+    <edge source="pizza" target="drinks">
+      <data key="d0">16416</data>
+    </edge>
+    <edge source="drinks" target="chicken">
+      <data key="d0">45040</data>
+    </edge>
+    <edge source="drinks" target="meal">
+      <data key="d0">44280</data>
+    </edge>
+    <edge source="drinks" target="cheese">
+      <data key="d0">39747</data>
+    </edge>
+    <edge source="drinks" target="salad">
+      <data key="d0">31106</data>
+    </edge>
+    <edge source="drinks" target="sauce">
+      <data key="d0">32654</data>
+    </edge>
+    <edge source="salad" target="chicken">
+      <data key="d0">100578</data>
+    </edge>
+    <edge source="salad" target="meal">
+      <data key="d0">66093</data>
+    </edge>
+    <edge source="salad" target="cheese">
+      <data key="d0">70290</data>
+    </edge>
+    <edge source="salad" target="sauce">
+      <data key="d0">61538</data>
+    </edge>
+    <edge source="cheese" target="chicken">
+      <data key="d0">95535</data>
+    </edge>
+    <edge source="cheese" target="meal">
+      <data key="d0">63833</data>
+    </edge>
+    <edge source="cheese" target="sauce">
+      <data key="d0">98655</data>
+    </edge>
+    <edge source="sauce" target="chicken">
+      <data key="d0">115567</data>
+    </edge>
+    <edge source="sauce" target="meal">
+      <data key="d0">73252</data>
+    </edge>
+    <edge source="meal" target="chicken">
+      <data key="d0">87564</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,322 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Pizza,BusinessAcceptsCreditCards,True,,1-2,79.5031055900621
+Pizza,BusinessAcceptsCreditCards,False,,1-2,0.9316770186335404
+Pizza,BusinessAcceptsCreditCards,,,1-2,0.3105590062111801
+Pizza,BusinessAcceptsCreditCards,True,,2-3,84.44096950742768
+Pizza,BusinessAcceptsCreditCards,False,,2-3,0.7818608287724784
+Pizza,BusinessAcceptsCreditCards,,,2-3,0.3127443315089914
+Pizza,BusinessAcceptsCreditCards,True,,3-4,88.15232722143864
+Pizza,BusinessAcceptsCreditCards,False,,3-4,1.7983074753173485
+Pizza,BusinessAcceptsCreditCards,,,3-4,0.1057827926657263
+Pizza,BusinessAcceptsCreditCards,True,,4-5,84.68649517684888
+Pizza,BusinessAcceptsCreditCards,False,,4-5,2.572347266881029
+Pizza,BusinessAcceptsCreditCards,,,4-5,0.040192926045016
+Pizza,BikeParking,False,,1-2,23.91304347826087
+Pizza,BikeParking,True,,1-2,15.527950310559005
+Pizza,BikeParking,,,1-2,0.3105590062111801
+Pizza,BikeParking,True,,2-3,26.739640344018767
+Pizza,BikeParking,False,,2-3,23.92494136043784
+Pizza,BikeParking,,,2-3,0.2345582486317435
+Pizza,BikeParking,True,,3-4,52.08039492242595
+Pizza,BikeParking,False,,3-4,19.18194640338505
+Pizza,BikeParking,,,3-4,0.0705218617771509
+Pizza,BikeParking,True,,4-5,57.958199356913184
+Pizza,BikeParking,False,,4-5,14.549839228295818
+Pizza,BikeParking,,,4-5,0.0803858520900321
+Pizza,WheelchairAccessible,True,,1-2,2.484472049689441
+Pizza,WheelchairAccessible,False,,1-2,2.1739130434782608
+Pizza,WheelchairAccessible,True,,2-3,6.56763096168882
+Pizza,WheelchairAccessible,False,,2-3,1.3291634089132134
+Pizza,WheelchairAccessible,,,2-3,0.0781860828772478
+Pizza,WheelchairAccessible,True,,3-4,19.992947813822283
+Pizza,WheelchairAccessible,False,,3-4,1.4809590973201692
+Pizza,WheelchairAccessible,,,3-4,0.0352609308885754
+Pizza,WheelchairAccessible,True,,4-5,34.163987138263664
+Pizza,WheelchairAccessible,False,,4-5,1.567524115755627
+Pizza,OutdoorSeating,False,,1-2,61.80124223602485
+Pizza,OutdoorSeating,True,,1-2,4.3478260869565215
+Pizza,OutdoorSeating,,,1-2,1.5527950310559009
+Pizza,OutdoorSeating,False,,2-3,59.9687255668491
+Pizza,OutdoorSeating,True,,2-3,13.213448006254886
+Pizza,OutdoorSeating,,,2-3,1.954652071931196
+Pizza,OutdoorSeating,False,,3-4,52.89139633286318
+Pizza,OutdoorSeating,True,,3-4,34.09732016925247
+Pizza,OutdoorSeating,,,3-4,1.16361071932299
+Pizza,OutdoorSeating,True,,4-5,42.68488745980707
+Pizza,OutdoorSeating,False,,4-5,41.036977491961416
+Pizza,OutdoorSeating,,,4-5,3.657556270096464
+Pizza,HasTV,True,,1-2,48.13664596273292
+Pizza,HasTV,False,,1-2,7.763975155279502
+Pizza,HasTV,True,,2-3,62.93979671618452
+Pizza,HasTV,False,,2-3,8.36591086786552
+Pizza,HasTV,,,2-3,0.1563721657544957
+Pizza,HasTV,True,,3-4,76.55148095909732
+Pizza,HasTV,False,,3-4,10.472496473906912
+Pizza,HasTV,True,,4-5,70.90032154340837
+Pizza,HasTV,False,,4-5,15.635048231511254
+Pizza,HasTV,,,4-5,0.0803858520900321
+Pizza,WiFi,u'no',,1-2,16.459627329192546
+Pizza,WiFi,'no',,1-2,13.354037267080743
+Pizza,WiFi,u'free',,1-2,5.279503105590062
+Pizza,WiFi,'free',,1-2,1.2422360248447204
+Pizza,WiFi,u'paid',,1-2,0.9316770186335404
+Pizza,WiFi,u'no',,2-3,21.26661454261141
+Pizza,WiFi,'no',,2-3,14.464425332290851
+Pizza,WiFi,u'free',,2-3,13.52619233776388
+Pizza,WiFi,'free',,2-3,4.300234558248632
+Pizza,WiFi,u'paid',,2-3,0.3127443315089914
+Pizza,WiFi,'paid',,2-3,0.2345582486317435
+Pizza,WiFi,,,2-3,0.0781860828772478
+Pizza,WiFi,u'free',,3-4,26.974612129760228
+Pizza,WiFi,u'no',,3-4,23.942172073342736
+Pizza,WiFi,'no',,3-4,12.482369534555712
+Pizza,WiFi,'free',,3-4,9.978843441466854
+Pizza,WiFi,u'paid',,3-4,0.3173483779971791
+Pizza,WiFi,'paid',,3-4,0.2468265162200282
+Pizza,WiFi,,,3-4,0.0352609308885754
+Pizza,WiFi,u'free',,4-5,32.27491961414791
+Pizza,WiFi,u'no',,4-5,22.38745980707396
+Pizza,WiFi,'no',,4-5,11.133440514469454
+Pizza,WiFi,'free',,4-5,8.762057877813504
+Pizza,WiFi,u'paid',,4-5,0.2813504823151125
+Pizza,WiFi,'paid',,4-5,0.1607717041800643
+Pizza,Alcohol,u'none',,1-2,29.503105590062116
+Pizza,Alcohol,'none',,1-2,13.043478260869565
+Pizza,Alcohol,u'beer_and_wine',,1-2,1.8633540372670807
+Pizza,Alcohol,'full_bar',,1-2,0.6211180124223602
+Pizza,Alcohol,u'full_bar',,1-2,0.6211180124223602
+Pizza,Alcohol,,,1-2,0.3105590062111801
+Pizza,Alcohol,'beer_and_wine',,1-2,0.3105590062111801
+Pizza,Alcohol,u'none',,2-3,39.01485535574668
+Pizza,Alcohol,'none',,2-3,10.789679437060204
+Pizza,Alcohol,u'beer_and_wine',,2-3,6.254886630179827
+Pizza,Alcohol,u'full_bar',,2-3,6.254886630179827
+Pizza,Alcohol,'full_bar',,2-3,0.9382329945269744
+Pizza,Alcohol,'beer_and_wine',,2-3,0.7036747458952306
+Pizza,Alcohol,,,2-3,0.2345582486317435
+Pizza,Alcohol,u'none',,3-4,36.10719322990127
+Pizza,Alcohol,u'full_bar',,3-4,18.441466854724965
+Pizza,Alcohol,u'beer_and_wine',,3-4,12.235543018335685
+Pizza,Alcohol,'none',,3-4,9.132581100141044
+Pizza,Alcohol,'full_bar',,3-4,3.6671368124118473
+Pizza,Alcohol,'beer_and_wine',,3-4,3.279266572637517
+Pizza,Alcohol,,,3-4,0.1057827926657263
+Pizza,Alcohol,u'none',,4-5,32.7572347266881
+Pizza,Alcohol,u'beer_and_wine',,4-5,18.12700964630225
+Pizza,Alcohol,u'full_bar',,4-5,16.519292604501608
+Pizza,Alcohol,'none',,4-5,7.596463022508039
+Pizza,Alcohol,'beer_and_wine',,4-5,3.979099678456592
+Pizza,Alcohol,'full_bar',,4-5,3.054662379421222
+Pizza,Alcohol,,,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,32.608695652173914
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,14.285714285714285
+Pizza,BusinessParking,,,1-2,1.5527950310559009
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,1.2422360248447204
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,0.9316770186335404
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,1-2,0.9316770186335404
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.6211180124223602
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,1-2,0.3105590062111801
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,35.18373729476153
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,22.83033620015637
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,7.114933541829554
+Pizza,BusinessParking,,,2-3,3.205629397967162
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.8600469116497262
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.3909304143862392
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.3127443315089914
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.3127443315089914
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.2345582486317435
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.1563721657544957
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.1563721657544957
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.1563721657544957
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.1563721657544957
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,2-3,0.1563721657544957
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0781860828772478
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,36.7771509167842
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,22.07334273624824
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,12.799717912552891
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,4.583921015514809
+Pizza,BusinessParking,,,3-4,1.7630465444287728
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.6699576868829337
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.6346967559943583
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.5994358251057829
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.4583921015514809
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.4583921015514809
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.3526093088857546
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.3526093088857546
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.3173483779971791
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,3-4,0.2468265162200282
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.2468265162200282
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2115655853314527
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.2115655853314527
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.1763046544428773
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,3-4,0.1763046544428773
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.1763046544428773
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,3-4,0.1410437235543018
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': None}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1057827926657263
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': None}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,3-4,0.0705218617771509
+Pizza,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': None}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': True}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': None}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0352609308885754
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,33.68167202572347
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,17.0016077170418
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,16.077170418006432
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,5.908360128617363
+Pizza,BusinessParking,,,4-5,1.4469453376205788
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.1254019292604502
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,1.0852090032154342
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.9244372990353698
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.6430868167202572
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.6028938906752411
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,4-5,0.5627009646302251
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,4-5,0.522508038585209
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.482315112540193
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.4421221864951768
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.4019292604501607
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,4-5,0.3617363344051447
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.3215434083601286
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,4-5,0.2813504823151125
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.2813504823151125
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,4-5,0.2813504823151125
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.2813504823151125
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.2411575562700965
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.2411575562700965
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,4-5,0.2411575562700965
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.2411575562700965
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,4-5,0.2009646302250803
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.2009646302250803
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': None}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.1607717041800643
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': None}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,4-5,0.1205787781350482
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': None, u'validated': None}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': None}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': None}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0803858520900321
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': None, u'validated': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'garage': False, u'street': True, u'validated': False, u'lot': True, u'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': None, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'garage': True, u'street': False, u'validated': False, u'lot': False, u'valet': True}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': True, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': True, u'validated': None}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,4-5,0.040192926045016
+Pizza,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.040192926045016

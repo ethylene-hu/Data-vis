@@ -1,0 +1,291 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Event Planning & Services,BusinessAcceptsCreditCards,True,,1-2,93.69863013698632
+Event Planning & Services,BusinessAcceptsCreditCards,False,,1-2,1.643835616438356
+Event Planning & Services,BusinessAcceptsCreditCards,True,,2-3,93.58460304731356
+Event Planning & Services,BusinessAcceptsCreditCards,False,,2-3,1.202886928628709
+Event Planning & Services,BusinessAcceptsCreditCards,,,2-3,0.0801924619085805
+Event Planning & Services,BusinessAcceptsCreditCards,True,,3-4,92.97812279463656
+Event Planning & Services,BusinessAcceptsCreditCards,False,,3-4,2.2582921665490474
+Event Planning & Services,BusinessAcceptsCreditCards,True,,4-5,90.89152635937069
+Event Planning & Services,BusinessAcceptsCreditCards,False,,4-5,2.9257521391112338
+Event Planning & Services,BusinessAcceptsCreditCards,,,4-5,0.0276014352746342
+Event Planning & Services,BikeParking,False,,1-2,2.73972602739726
+Event Planning & Services,BikeParking,True,,1-2,2.4657534246575343
+Event Planning & Services,BikeParking,True,,2-3,16.439454691259023
+Event Planning & Services,BikeParking,False,,2-3,8.09943865276664
+Event Planning & Services,BikeParking,True,,3-4,34.685956245589274
+Event Planning & Services,BikeParking,False,,3-4,10.621030345800987
+Event Planning & Services,BikeParking,,,3-4,0.0352858151023288
+Event Planning & Services,BikeParking,True,,4-5,44.13469500414022
+Event Planning & Services,BikeParking,False,,4-5,10.18492961634005
+Event Planning & Services,BikeParking,,,4-5,0.0828043058239028
+Event Planning & Services,WheelchairAccessible,True,,1-2,5.47945205479452
+Event Planning & Services,WheelchairAccessible,True,,2-3,10.024057738572576
+Event Planning & Services,WheelchairAccessible,False,,2-3,0.6415396952686447
+Event Planning & Services,WheelchairAccessible,True,,3-4,23.14749470712773
+Event Planning & Services,WheelchairAccessible,False,,3-4,1.1291460832745237
+Event Planning & Services,WheelchairAccessible,,,3-4,0.0705716302046577
+Event Planning & Services,WheelchairAccessible,True,,4-5,33.14932376483577
+Event Planning & Services,WheelchairAccessible,False,,4-5,3.5605851504278223
+Event Planning & Services,WheelchairAccessible,,,4-5,0.0276014352746342
+Event Planning & Services,OutdoorSeating,False,,1-2,2.73972602739726
+Event Planning & Services,OutdoorSeating,True,,1-2,1.095890410958904
+Event Planning & Services,OutdoorSeating,False,,2-3,11.226944667201282
+Event Planning & Services,OutdoorSeating,True,,2-3,9.30232558139535
+Event Planning & Services,OutdoorSeating,,,2-3,0.3207698476343223
+Event Planning & Services,OutdoorSeating,True,,3-4,21.912491178546222
+Event Planning & Services,OutdoorSeating,False,,3-4,18.03105151729005
+Event Planning & Services,OutdoorSeating,,,3-4,0.5998588567395907
+Event Planning & Services,OutdoorSeating,True,,4-5,21.22550372619376
+Event Planning & Services,OutdoorSeating,False,,4-5,14.04913055478885
+Event Planning & Services,OutdoorSeating,,,4-5,1.7388904223019597
+Event Planning & Services,HasTV,True,,1-2,3.0136986301369864
+Event Planning & Services,HasTV,False,,1-2,1.095890410958904
+Event Planning & Services,HasTV,True,,2-3,17.24137931034483
+Event Planning & Services,HasTV,False,,2-3,2.886928628708901
+Event Planning & Services,HasTV,True,,3-4,30.5575158786168
+Event Planning & Services,HasTV,False,,3-4,8.574453069865914
+Event Planning & Services,HasTV,,,3-4,0.0352858151023288
+Event Planning & Services,HasTV,True,,4-5,21.91553960805962
+Event Planning & Services,HasTV,False,,4-5,13.193486061275186
+Event Planning & Services,HasTV,,,4-5,0.0552028705492685
+Event Planning & Services,WiFi,u'free',,1-2,40.54794520547945
+Event Planning & Services,WiFi,'free',,1-2,22.46575342465753
+Event Planning & Services,WiFi,u'no',,1-2,6.027397260273973
+Event Planning & Services,WiFi,u'paid',,1-2,2.73972602739726
+Event Planning & Services,WiFi,'no',,1-2,2.4657534246575343
+Event Planning & Services,WiFi,'paid',,1-2,0.547945205479452
+Event Planning & Services,WiFi,u'free',,2-3,45.4691259021652
+Event Planning & Services,WiFi,'free',,2-3,14.434643143544507
+Event Planning & Services,WiFi,u'no',,2-3,5.934242181234964
+Event Planning & Services,WiFi,'no',,2-3,3.0473135525260626
+Event Planning & Services,WiFi,u'paid',,2-3,2.967121090617482
+Event Planning & Services,WiFi,'paid',,2-3,0.5613472333600642
+Event Planning & Services,WiFi,u'free',,3-4,43.93083980239943
+Event Planning & Services,WiFi,u'no',,3-4,11.150317572335922
+Event Planning & Services,WiFi,'free',,3-4,10.83274523641496
+Event Planning & Services,WiFi,'no',,3-4,4.0225829216654905
+Event Planning & Services,WiFi,u'paid',,3-4,2.575864502470007
+Event Planning & Services,WiFi,'paid',,3-4,0.3881439661256175
+Event Planning & Services,WiFi,u'free',,4-5,37.59315484405189
+Event Planning & Services,WiFi,u'no',,4-5,12.972674579078111
+Event Planning & Services,WiFi,'free',,4-5,6.127518630968811
+Event Planning & Services,WiFi,'no',,4-5,3.3121722329561134
+Event Planning & Services,WiFi,u'paid',,4-5,0.7728401876897599
+Event Planning & Services,WiFi,'paid',,4-5,0.1656086116478057
+Event Planning & Services,WiFi,,,4-5,0.0276014352746342
+Event Planning & Services,Alcohol,u'none',,1-2,1.643835616438356
+Event Planning & Services,Alcohol,u'full_bar',,1-2,0.547945205479452
+Event Planning & Services,Alcohol,u'beer_and_wine',,1-2,0.273972602739726
+Event Planning & Services,Alcohol,'none',,1-2,0.273972602739726
+Event Planning & Services,Alcohol,u'full_bar',,2-3,6.7361668003207695
+Event Planning & Services,Alcohol,u'none',,2-3,6.7361668003207695
+Event Planning & Services,Alcohol,'none',,2-3,2.405773857257418
+Event Planning & Services,Alcohol,u'beer_and_wine',,2-3,1.8444266238973537
+Event Planning & Services,Alcohol,'full_bar',,2-3,1.7642341619887731
+Event Planning & Services,Alcohol,'beer_and_wine',,2-3,0.3207698476343223
+Event Planning & Services,Alcohol,,,2-3,0.0801924619085805
+Event Planning & Services,Alcohol,u'full_bar',,3-4,15.87861679604799
+Event Planning & Services,Alcohol,u'none',,3-4,12.80875088214538
+Event Planning & Services,Alcohol,'full_bar',,3-4,4.093154551870148
+Event Planning & Services,Alcohol,'none',,3-4,3.634438955539873
+Event Planning & Services,Alcohol,u'beer_and_wine',,3-4,2.293577981651376
+Event Planning & Services,Alcohol,'beer_and_wine',,3-4,0.6351446718419196
+Event Planning & Services,Alcohol,u'none',,4-5,14.104333425338115
+Event Planning & Services,Alcohol,u'full_bar',,4-5,11.344189897874688
+Event Planning & Services,Alcohol,u'beer_and_wine',,4-5,4.913055478884902
+Event Planning & Services,Alcohol,'none',,4-5,2.7601435274634283
+Event Planning & Services,Alcohol,'full_bar',,4-5,2.097709080872205
+Event Planning & Services,Alcohol,'beer_and_wine',,4-5,0.9660502346122
+Event Planning & Services,Alcohol,,,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,3.287671232876712
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,2.73972602739726
+Event Planning & Services,BusinessParking,,,1-2,0.821917808219178
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,1-2,0.273972602739726
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,1-2,0.273972602739726
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,1-2,0.273972602739726
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,14.995990376904572
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,10.585404971932638
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,1.6038492381716118
+Event Planning & Services,BusinessParking,,,2-3,1.5236567762630313
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,1.1226944667201284
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.7217321571772253
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.4009623095429029
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.3207698476343223
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.2405773857257417
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.2405773857257417
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.1603849238171611
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0801924619085805
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,24.98235709244884
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,8.821453775582217
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,6.457304163726183
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,3.493295695130558
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.376146788990826
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.9880028228652082
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.8468595624558928
+Event Planning & Services,BusinessParking,,,3-4,0.8115737473535639
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.6704304869442484
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.4940014114326041
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.3528581510232886
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.3175723359209598
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.2822865208186309
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.2822865208186309
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2822865208186309
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.247000705716302
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.247000705716302
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2117148906139732
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.1764290755116443
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.1764290755116443
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1411432604093154
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.1411432604093154
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.1411432604093154
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.1058574453069866
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': None}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0705716302046577
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': None}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': True, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': True}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': True, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': None}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': True}",,3-4,0.0352858151023288
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,24.013248688931824
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,11.316588462600055
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,9.743306651945902
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,6.127518630968811
+Event Planning & Services,BusinessParking,,,4-5,1.573281810654154
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.4628760695556169
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.6900358818658571
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.5244272702180514
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.3864200938448799
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.3312172232956114
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.3312172232956114
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.3312172232956114
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.3036157880209771
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.3036157880209771
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,4-5,0.2484129174717085
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.2208114821970742
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.2208114821970742
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.1932100469224399
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.1932100469224399
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1656086116478057
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1656086116478057
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1656086116478057
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.1104057410985371
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1104057410985371
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1104057410985371
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.1104057410985371
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,4-5,0.0828043058239028
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': None}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0552028705492685
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': True, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': True, u'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': True, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': True, u'garage': False, u'street': True, u'lot': False, u'validated': True}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'garage': True, u'street': True, u'validated': False, u'lot': False, u'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0276014352746342
+Event Planning & Services,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0276014352746342

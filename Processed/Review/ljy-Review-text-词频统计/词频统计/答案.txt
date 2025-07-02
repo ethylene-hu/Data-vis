@@ -1,0 +1,308 @@
+从评论中提取最常见的Top20词语
+词语	出现次数
+food	3,635,213
+good	3,306,152
+place	3,168,165
+great	3,074,772
+service	2,318,746
+time	2,253,766
+like	2,189,458
+one	2,138,256
+get	2,124,040
+back	2,039,845
+would	2,011,371
+go	1,822,574
+really	1,605,605
+also	1,509,751
+us	1,386,927
+got	1,351,768
+even	1,230,296
+nice	1,223,571
+best	1,217,215
+well	1,196,404
+ordered	1,155,257
+staff	1,140,276
+order	1,134,107
+always	1,047,184
+friendly	1,036,957
+love	1,032,263
+came	1,029,206
+restaurant	1,022,538
+delicious	1,022,113
+first	1,011,218
+never	995,081
+could	984,829
+chicken	970,615
+went	968,000
+definitely	947,720
+little	945,665
+try	941,662
+people	905,313
+experience	900,783
+new	891,011
+amazing	887,035
+made	875,740
+menu	875,631
+come	863,532
+much	856,749
+make	824,235
+said	793,259
+day	788,309
+two	780,063
+bar	767,053
+recommend	763,374
+wait	757,604
+going	753,670
+know	743,604
+way	734,511
+better	720,991
+pretty	702,230
+ever	700,397
+right	693,750
+everything	692,760
+take	688,652
+cheese	679,179
+pizza	669,787
+night	664,000
+fresh	660,316
+want	656,275
+told	653,824
+area	653,574
+still	647,986
+around	640,420
+sure	638,908
+minutes	637,461
+say	634,253
+took	617,488
+see	605,906
+sauce	601,222
+table	599,671
+eat	598,235
+give	591,960
+asked	588,160
+next	587,077
+every	586,089
+times	584,820
+think	581,382
+another	577,311
+work	568,093
+since	563,087
+many	557,788
+small	550,807
+location	548,451
+meal	547,800
+salad	546,771
+lunch	543,746
+room	537,874
+find	528,100
+drinks	525,272
+dinner	524,239
+lot	522,365
+something	517,851
+bad	516,886
+
+从评论中提取正面评论（评分>3）的Top10词语
+排名	词语	出现次数
+1	great	2,836,360
+2	good	2,753,267
+3	food	2,717,647
+4	place	2,471,904
+5	service	1,625,741
+6	time	1,563,940
+7	like	1,529,554
+8	one	1,432,132
+9	get	1,410,278
+10	back	1,358,047
+11	go	1,304,169
+12	really	1,284,019
+13	would	1,241,773
+14	also	1,226,523
+15	best	1,098,921
+16	nice	1,040,095
+17	delicious	989,759
+18	well	959,084
+19	friendly	954,458
+20	love	951,071
+21	always	924,508
+22	got	915,410
+23	staff	909,689
+24	definitely	868,071
+25	amazing	853,008
+26	us	842,929
+27	little	803,720
+28	try	779,479
+29	chicken	768,338
+30	ordered	765,862
+31	restaurant	758,715
+32	even	739,379
+33	menu	727,853
+34	first	710,180
+35	order	673,590
+36	new	672,590
+37	came	662,385
+38	made	659,476
+39	recommend	658,375
+40	experience	637,233
+41	much	626,485
+42	come	614,550
+43	went	612,081
+44	bar	601,444
+45	fresh	597,915
+46	could	595,601
+47	make	586,799
+48	everything	579,659
+49	people	579,406
+50	pretty	568,289
+51	day	550,640
+52	cheese	542,608
+53	area	539,978
+54	wait	539,354
+55	right	516,619
+56	pizza	512,867
+57	never	507,217
+58	two	498,587
+59	night	494,778
+60	better	484,739
+61	way	484,105
+62	sure	481,353
+63	sauce	480,317
+64	going	476,565
+65	excellent	473,945
+66	know	468,334
+67	ever	467,873
+68	every	462,619
+69	lunch	459,927
+70	favorite	452,289
+71	around	451,657
+72	awesome	446,067
+73	take	444,655
+74	super	442,912
+75	eat	441,999
+76	want	438,916
+77	salad	432,899
+78	bit	431,750
+79	small	428,920
+80	next	425,643
+81	say	424,647
+82	dinner	423,399
+83	meal	418,681
+84	think	418,293
+85	many	416,399
+86	see	415,953
+87	lot	407,961
+88	still	407,612
+89	happy	403,178
+90	hot	397,522
+91	drinks	396,854
+92	perfect	396,674
+93	find	394,566
+94	atmosphere	389,218
+95	since	387,449
+96	work	386,707
+97	times	384,716
+98	clean	384,411
+99	location	383,032
+100	table	378,843
+从评论中提取负面评论（评分<=3）的Top10词语
+
+排名	词语	出现次数
+1	food	917,566
+2	would	769,598
+3	get	713,762
+4	one	706,124
+5	place	696,261
+6	service	693,005
+7	time	689,826
+8	back	681,798
+9	like	659,904
+10	good	552,885
+11	us	543,998
+12	go	518,405
+13	even	490,917
+14	never	487,864
+15	said	485,262
+16	told	464,264
+17	order	460,517
+18	got	436,358
+19	ordered	389,395
+20	could	389,228
+21	asked	371,158
+22	came	366,821
+23	minutes	365,425
+24	went	355,919
+25	people	325,907
+26	really	321,586
+27	first	301,038
+28	also	283,228
+29	two	281,476
+30	going	277,105
+31	know	275,270
+32	another	273,307
+33	restaurant	263,823
+34	experience	263,550
+35	took	261,287
+36	customer	261,088
+37	called	259,347
+38	way	250,406
+39	come	248,982
+40	bad	248,708
+41	take	243,997
+42	still	240,374
+43	manager	239,188
+44	great	238,412
+45	day	237,669
+46	make	237,436
+47	well	237,320
+48	better	236,252
+49	give	234,430
+50	ever	232,524
+51	staff	230,587
+52	much	230,264
+53	table	220,828
+54	new	218,421
+55	wait	218,250
+56	left	217,679
+57	want	217,359
+58	made	216,264
+59	car	212,759
+60	say	209,606
+61	call	206,082
+62	chicken	202,277
+63	times	200,104
+64	room	196,099
+65	money	196,009
+66	wanted	190,421
+67	see	189,953
+68	around	188,763
+69	last	186,943
+70	nice	183,476
+71	work	181,386
+72	right	177,131
+73	rude	176,948
+74	nothing	176,672
+75	since	175,638
+76	business	173,441
+77	night	169,222
+78	bar	165,609
+79	location	165,419
+80	worst	164,804
+81	long	164,081
+82	think	163,089
+83	try	162,183
+84	store	161,688
+85	next	161,434
+86	hour	158,749
+87	something	158,300
+88	sure	157,555
+89	pizza	156,920
+90	eat	156,236
+91	away	154,710
+92	check	151,485
+93	put	150,915
+94	waiting	149,267
+95	phone	149,261
+96	server	148,803
+97	menu	147,778
+98	someone	147,533
+99	done	145,185
+100	later	143,374

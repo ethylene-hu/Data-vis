@@ -1,0 +1,173 @@
+{
+    "一、美国最常见商户（前20）": [
+        ["The UPS Store", 277],
+        ["Enterprise Rent-A-Car", 231],
+        ["US Post Office", 174],
+        ["Jiffy Lube", 137],
+        ["Public Storage", 132],
+        ["Firestone Complete Auto Care", 119],
+        ["PetSmart", 107],
+        ["Bank of America Financial Center", 94],
+        ["Pep Boys", 92],
+        ["FedEx Office Print & Ship Center", 89],
+        ["Quest Diagnostics", 84],
+        ["Labcorp", 77],
+        ["Meineke Car Care Center", 74],
+        ["Wells Fargo Bank", 74],
+        ["Banfield Pet Hospital", 73],
+        ["Chase Bank", 72],
+        ["Hertz Rent A Car", 72],
+        ["Subway", 69],
+        ["Valvoline Instant Oil Change", 69],
+        ["Midas", 68]
+    ],
+
+    "二、商户最多的前10个城市": [
+        ["Philadelphia", 3740],
+        ["Tucson", 3369],
+        ["Tampa", 2835],
+        ["Reno", 2181],
+        ["Indianapolis", 1959],
+        ["Nashville", 1939],
+        ["Santa Barbara", 1402],
+        ["New Orleans", 1329],
+        ["Saint Louis", 1255],
+        ["Edmonton", 1018]
+    ],
+
+    "三、商户最多的前5个州": [
+        ["PA", 9490],
+        ["FL", 8138],
+        ["AZ", 3594],
+        ["TN", 3445],
+        ["NV", 2935]
+    ],
+
+    "四、最常见商户及平均评分（前20）": [
+        ["The UPS Store", 277, 3.22],
+        ["Enterprise Rent-A-Car", 231, 3.28],
+        ["US Post Office", 174, 2.42],
+        ["Jiffy Lube", 137, 3.44],
+        ["Public Storage", 132, 3.50],
+        ["Firestone Complete Auto Care", 119, 2.76],
+        ["PetSmart", 107, 2.83],
+        ["Bank of America Financial Center", 94, 2.07],
+        ["Pep Boys", 92, 2.65],
+        ["FedEx Office Print & Ship Center", 89, 3.11],
+        ["Quest Diagnostics", 84, 2.69],
+        ["Labcorp", 77, 2.44],
+        ["Meineke Car Care Center", 74, 3.22],
+        ["Wells Fargo Bank", 74, 2.66],
+        ["Banfield Pet Hospital", 73, 2.75],
+        ["Chase Bank", 72, 2.81],
+        ["Hertz Rent A Car", 72, 2.03],
+        ["Subway", 69, 2.30],
+        ["Valvoline Instant Oil Change", 69, 3.77],
+        ["Midas", 68, 3.10]
+    ],
+
+    "五、评分最高的前10个城市": [
+        ["Oreland", 4.31],
+        ["Wyndmoor", 4.21],
+        ["Safety Harbor", 4.18],
+        ["Carpinteria", 4.17],
+        ["Mooresville", 4.17],
+        ["Skippack", 4.15],
+        ["Santa Barbara", 4.09],
+        ["Lambertville", 4.07],
+        ["Narberth", 4.06],
+        ["Collingswood", 4.05]
+    ],
+
+    "六、Category统计": [
+        {"总类别数": 1187},
+        {
+            "最常见类别（前10）": [
+                ["Home Services", 11608],
+                ["Automotive", 6576],
+                ["Local Services", 6565],
+                ["Health & Medical", 6402],
+                ["Shopping", 4261],
+                ["Auto Repair", 3346],
+                ["Real Estate", 3280],
+                ["Pets", 3171],
+                ["Doctors", 2360],
+                ["Professional Services", 2349]
+            ]
+        }
+    ],
+
+    "七、五星评论最多的商户（前20）": [
+        ["Painting with a Twist", 10],
+        ["Caliber Collision", 9],
+        ["The UPS Store", 8],
+        ["Public Storage", 8],
+        ["Extra Space Storage", 6],
+        ["Club Pilates", 5],
+        ["Project Management Academy", 4],
+        ["Nashville Pet Products", 4],
+        ["NovaCare Rehabilitation", 4],
+        ["Valvoline Instant Oil Change", 4],
+        ["CubeSmart Self Storage", 4],
+        ["The Joint Chiropractic", 4],
+        ["Take 5 Oil Change", 3],
+        ["The Goddard School", 3],
+        ["Ronald McDonald House", 3],
+        ["Advance Auto Parts", 3],
+        ["Express Oil Change & Tire Engineers", 3],
+        ["Dan Brassil", 2],
+        ["Quest Diagnostics", 2],
+        ["Stuttgart Autohaus", 2]
+    ],
+
+    "八、餐厅菜系统计": {
+        "1. 菜系类型及数量": {
+            "American": 652,
+            "Italian": 283,
+            "Mexican": 192,
+            "Chinese": 121,
+            "Japanese": 58,
+            "Mediterranean": 51,
+            "Indian": 33,
+            "Thai": 17,
+            "Korean": 12,
+            "Vietnamese": 8,
+            "Hawaiian": 8,
+            "Spanish": 7,
+            "French": 7,
+            "African": 6
+        },
+        "2. 评论数量分布": {
+            "American": 7185,
+            "Italian": 3360,
+            "Mexican": 2600,
+            "Chinese": 1827,
+            "Japanese": 862,
+            "Mediterranean": 745,
+            "Indian": 486,
+            "Thai": 237,
+            "Korean": 194,
+            "Hawaiian": 151,
+            "Vietnamese": 90,
+            "Spanish": 55,
+            "French": 62,
+            "African": 49
+        },
+        "3. 评分分布（min/max/avg/count）": {
+            "American": {"min": 1.0, "max": 5.0, "avg": 3.14, "count": 652},
+            "Mexican": {"min": 1.5, "max": 5.0, "avg": 3.99, "count": 192},
+            "Italian": {"min": 1.0, "max": 5.0, "avg": 3.38, "count": 283},
+            "Chinese": {"min": 1.0, "max": 5.0, "avg": 3.17, "count": 121},
+            "Japanese": {"min": 2.0, "max": 5.0, "avg": 4.09, "count": 58},
+            "Mediterranean": {"min": 1.0, "max": 5.0, "avg": 3.99, "count": 51},
+            "Indian": {"min": 2.5, "max": 5.0, "avg": 4.14, "count": 33},
+            "Korean": {"min": 3.5, "max": 4.5, "avg": 4.08, "count": 12},
+            "Thai": {"min": 2.5, "max": 5.0, "avg": 4.18, "count": 17},
+            "Vietnamese": {"min": 3.0, "max": 5.0, "avg": 4.44, "count": 8},
+            "Hawaiian": {"min": 2.5, "max": 5.0, "avg": 4.13, "count": 8},
+            "Spanish": {"min": 2.5, "max": 5.0, "avg": 3.57, "count": 7},
+            "French": {"min": 2.0, "max": 4.5, "avg": 4.00, "count": 7},
+            "African": {"min": 2.5, "max": 5.0, "avg": 4.25, "count": 6}
+        }
+    }
+}

@@ -1,0 +1,139 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Home Services,BusinessAcceptsCreditCards,True,,1-2,76.60311958405546
+Home Services,BusinessAcceptsCreditCards,False,,1-2,17.76429809358752
+Home Services,BusinessAcceptsCreditCards,,,1-2,0.1733102253032928
+Home Services,BusinessAcceptsCreditCards,True,,2-3,84.01656314699792
+Home Services,BusinessAcceptsCreditCards,False,,2-3,12.215320910973086
+Home Services,BusinessAcceptsCreditCards,,,2-3,0.041407867494824
+Home Services,BusinessAcceptsCreditCards,True,,3-4,87.24398131512756
+Home Services,BusinessAcceptsCreditCards,False,,3-4,9.306503772906934
+Home Services,BusinessAcceptsCreditCards,,,3-4,0.0718648939992813
+Home Services,BusinessAcceptsCreditCards,True,,4-5,85.86111807470544
+Home Services,BusinessAcceptsCreditCards,False,,4-5,11.606919027325144
+Home Services,BusinessAcceptsCreditCards,,,4-5,0.0250689395838556
+Home Services,BikeParking,False,,1-2,2.3396880415944543
+Home Services,BikeParking,True,,1-2,2.253032928942808
+Home Services,BikeParking,True,,2-3,8.530020703933747
+Home Services,BikeParking,False,,2-3,4.265010351966874
+Home Services,BikeParking,,,2-3,0.041407867494824
+Home Services,BikeParking,True,,3-4,11.067193675889328
+Home Services,BikeParking,False,,3-4,5.102407473948976
+Home Services,BikeParking,,,3-4,0.0359324469996406
+Home Services,BikeParking,True,,4-5,10.328403108548509
+Home Services,BikeParking,False,,4-5,2.882928052143394
+Home Services,BikeParking,,,4-5,0.0250689395838556
+Home Services,WheelchairAccessible,True,,1-2,5.979202772963605
+Home Services,WheelchairAccessible,False,,1-2,1.733102253032929
+Home Services,WheelchairAccessible,True,,2-3,9.06832298136646
+Home Services,WheelchairAccessible,False,,2-3,1.0351966873706004
+Home Services,WheelchairAccessible,True,,3-4,10.384477182896156
+Home Services,WheelchairAccessible,False,,3-4,0.9701760689902982
+Home Services,WheelchairAccessible,True,,4-5,7.119578841814992
+Home Services,WheelchairAccessible,False,,4-5,1.4289295562797697
+Home Services,WheelchairAccessible,,,4-5,0.0250689395838556
+Home Services,OutdoorSeating,False,,1-2,0.4332755632582322
+Home Services,OutdoorSeating,True,,1-2,0.0866551126516464
+Home Services,OutdoorSeating,False,,2-3,0.4140786749482402
+Home Services,OutdoorSeating,True,,2-3,0.124223602484472
+Home Services,OutdoorSeating,False,,3-4,0.3952569169960474
+Home Services,OutdoorSeating,True,,3-4,0.323392022996766
+Home Services,OutdoorSeating,,,3-4,0.0359324469996406
+Home Services,OutdoorSeating,False,,4-5,0.376034093757834
+Home Services,OutdoorSeating,True,,4-5,0.3509651541739784
+Home Services,HasTV,False,,1-2,0.3466204506065857
+Home Services,HasTV,True,,1-2,0.0866551126516464
+Home Services,HasTV,False,,2-3,0.3312629399585921
+Home Services,HasTV,True,,2-3,0.124223602484472
+Home Services,HasTV,False,,3-4,0.3952569169960474
+Home Services,HasTV,True,,3-4,0.3593244699964067
+Home Services,HasTV,False,,4-5,0.3258962145901228
+Home Services,HasTV,True,,4-5,0.3258962145901228
+Home Services,WiFi,u'free',,1-2,0.8665511265164645
+Home Services,WiFi,'free',,1-2,0.2599653379549393
+Home Services,WiFi,u'no',,1-2,0.1733102253032928
+Home Services,WiFi,'no',,1-2,0.0866551126516464
+Home Services,WiFi,u'free',,2-3,3.5196687370600417
+Home Services,WiFi,u'no',,2-3,0.7039337474120083
+Home Services,WiFi,'free',,2-3,0.2070393374741201
+Home Services,WiFi,u'paid',,2-3,0.082815734989648
+Home Services,WiFi,'no',,2-3,0.082815734989648
+Home Services,WiFi,,,2-3,0.041407867494824
+Home Services,WiFi,u'free',,3-4,2.946460653970536
+Home Services,WiFi,u'no',,3-4,1.4372978799856269
+Home Services,WiFi,'free',,3-4,0.323392022996766
+Home Services,WiFi,u'paid',,3-4,0.1437297879985627
+Home Services,WiFi,'no',,3-4,0.0718648939992813
+Home Services,WiFi,,,3-4,0.0359324469996406
+Home Services,WiFi,u'free',,4-5,2.607169716720983
+Home Services,WiFi,u'no',,4-5,1.1281022812735022
+Home Services,WiFi,'free',,4-5,0.250689395838556
+Home Services,WiFi,u'paid',,4-5,0.125344697919278
+Home Services,WiFi,,,4-5,0.0250689395838556
+Home Services,WiFi,'no',,4-5,0.0250689395838556
+Home Services,Alcohol,u'none',,1-2,0.0866551126516464
+Home Services,Alcohol,u'none',,2-3,0.3726708074534161
+Home Services,Alcohol,u'full_bar',,2-3,0.041407867494824
+Home Services,Alcohol,u'none',,3-4,0.4311893639956881
+Home Services,Alcohol,u'full_bar',,3-4,0.1437297879985627
+Home Services,Alcohol,'full_bar',,3-4,0.0718648939992813
+Home Services,Alcohol,'none',,3-4,0.0359324469996406
+Home Services,Alcohol,u'none',,4-5,0.3008272750062672
+Home Services,Alcohol,u'full_bar',,4-5,0.1504136375031336
+Home Services,Alcohol,'full_bar',,4-5,0.0752068187515668
+Home Services,Alcohol,u'beer_and_wine',,4-5,0.0501378791677112
+Home Services,Alcohol,'beer_and_wine',,4-5,0.0250689395838556
+Home Services,Alcohol,'none',,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,2.68630849220104
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,1.993067590987868
+Home Services,BusinessParking,,,1-2,0.3466204506065857
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2599653379549393
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.1733102253032928
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,1-2,0.1733102253032928
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,0.1733102253032928
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.0866551126516464
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,8.654244306418219
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,4.3892339544513455
+Home Services,BusinessParking,,,2-3,0.5797101449275363
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.5383022774327122
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.4140786749482402
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.2898550724637681
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.2070393374741201
+Home Services,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.082815734989648
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.041407867494824
+Home Services,BusinessParking,{},,2-3,0.041407867494824
+Home Services,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': False, u'valet': False}",,2-3,0.041407867494824
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,9.234638878907656
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,5.677326625943227
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.1498383039885016
+Home Services,BusinessParking,,,3-4,1.1498383039885016
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.6108515989938915
+Home Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.215594681997844
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1796622349982033
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.1437297879985627
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.107797340998922
+Home Services,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.0359324469996406
+Home Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0359324469996406
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0359324469996406
+Home Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0359324469996406
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,6.643268989721735
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,4.16144397092003
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.7297568312860363
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,1.2033091000250689
+Home Services,BusinessParking,,,4-5,1.0779644021057908
+Home Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.1002757583354224
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0501378791677112
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0501378791677112
+Home Services,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0501378791677112
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0501378791677112
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0501378791677112
+Home Services,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0250689395838556
+Home Services,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0250689395838556

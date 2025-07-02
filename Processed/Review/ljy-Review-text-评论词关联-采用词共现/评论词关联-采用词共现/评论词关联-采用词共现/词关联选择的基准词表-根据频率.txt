@@ -1,0 +1,8 @@
+adjectives = {"great", "good", "nice", "delicious", "friendly", "best", "amazing",
+              "pretty", "super", "excellent", "hot", "clean", "small", "fresh", "better"}
+
+nouns = {"food", "service", "staff", "customer", "order", 
+         "menu", "chicken", "pizza", "cheese", "sauce", 
+         "salad", "drinks", "meal", 
+         "table", "room", "place", "restaurant", "bar", "area", "location", 
+         "experience", "back"}

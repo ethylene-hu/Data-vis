@@ -1,0 +1,142 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Home & Garden,BusinessAcceptsCreditCards,True,,1-2,88.0
+Home & Garden,BusinessAcceptsCreditCards,False,,1-2,4.444444444444445
+Home & Garden,BusinessAcceptsCreditCards,True,,2-3,91.51873767258382
+Home & Garden,BusinessAcceptsCreditCards,False,,2-3,2.071005917159764
+Home & Garden,BusinessAcceptsCreditCards,True,,3-4,92.44444444444444
+Home & Garden,BusinessAcceptsCreditCards,False,,3-4,1.5238095238095235
+Home & Garden,BusinessAcceptsCreditCards,,,3-4,0.1269841269841269
+Home & Garden,BusinessAcceptsCreditCards,True,,4-5,91.44411473788328
+Home & Garden,BusinessAcceptsCreditCards,False,,4-5,2.4233432245301683
+Home & Garden,BusinessAcceptsCreditCards,,,4-5,0.049455984174085
+Home & Garden,BikeParking,True,,1-2,25.333333333333336
+Home & Garden,BikeParking,False,,1-2,20.0
+Home & Garden,BikeParking,,,1-2,0.8888888888888888
+Home & Garden,BikeParking,True,,2-3,42.30769230769231
+Home & Garden,BikeParking,False,,2-3,23.47140039447732
+Home & Garden,BikeParking,,,2-3,0.0986193293885601
+Home & Garden,BikeParking,True,,3-4,48.0
+Home & Garden,BikeParking,False,,3-4,20.952380952380956
+Home & Garden,BikeParking,True,,4-5,50.9891196834817
+Home & Garden,BikeParking,False,,4-5,13.204747774480714
+Home & Garden,BikeParking,,,4-5,0.1483679525222552
+Home & Garden,WheelchairAccessible,True,,1-2,13.333333333333334
+Home & Garden,WheelchairAccessible,False,,1-2,2.2222222222222223
+Home & Garden,WheelchairAccessible,True,,2-3,16.074950690335303
+Home & Garden,WheelchairAccessible,False,,2-3,0.4930966469428008
+Home & Garden,WheelchairAccessible,True,,3-4,22.22222222222222
+Home & Garden,WheelchairAccessible,False,,3-4,1.4603174603174605
+Home & Garden,WheelchairAccessible,,,3-4,0.0634920634920634
+Home & Garden,WheelchairAccessible,True,,4-5,23.590504451038576
+Home & Garden,WheelchairAccessible,False,,4-5,4.253214638971316
+Home & Garden,WheelchairAccessible,,,4-5,0.049455984174085
+Home & Garden,OutdoorSeating,True,,1-2,0.4444444444444444
+Home & Garden,OutdoorSeating,False,,2-3,3.057199211045365
+Home & Garden,OutdoorSeating,True,,2-3,0.1972386587771203
+Home & Garden,OutdoorSeating,False,,3-4,7.428571428571429
+Home & Garden,OutdoorSeating,True,,3-4,0.1904761904761904
+Home & Garden,OutdoorSeating,False,,4-5,1.8793273986152328
+Home & Garden,OutdoorSeating,True,,4-5,0.8407517309594461
+Home & Garden,HasTV,False,,2-3,2.7613412228796843
+Home & Garden,HasTV,True,,2-3,0.3944773175542406
+Home & Garden,HasTV,False,,3-4,6.730158730158731
+Home & Garden,HasTV,True,,3-4,0.4444444444444444
+Home & Garden,HasTV,False,,4-5,1.7309594460929771
+Home & Garden,HasTV,True,,4-5,0.1978239366963402
+Home & Garden,WiFi,u'free',,1-2,0.8888888888888888
+Home & Garden,WiFi,u'no',,1-2,0.4444444444444444
+Home & Garden,WiFi,u'free',,2-3,6.804733727810651
+Home & Garden,WiFi,u'no',,2-3,3.5502958579881656
+Home & Garden,WiFi,u'no',,3-4,7.809523809523809
+Home & Garden,WiFi,u'free',,3-4,3.8730158730158735
+Home & Garden,WiFi,'no',,3-4,0.2539682539682539
+Home & Garden,WiFi,u'paid',,3-4,0.0634920634920634
+Home & Garden,WiFi,u'no',,4-5,3.560830860534125
+Home & Garden,WiFi,u'free',,4-5,1.8793273986152328
+Home & Garden,WiFi,'no',,4-5,0.6429277942631058
+Home & Garden,WiFi,'free',,4-5,0.2967359050445104
+Home & Garden,WiFi,u'paid',,4-5,0.0989119683481701
+Home & Garden,WiFi,,,4-5,0.049455984174085
+Home & Garden,Alcohol,u'beer_and_wine',,2-3,0.1972386587771203
+Home & Garden,Alcohol,u'none',,2-3,0.1972386587771203
+Home & Garden,Alcohol,'none',,2-3,0.0986193293885601
+Home & Garden,Alcohol,u'none',,3-4,0.4444444444444444
+Home & Garden,Alcohol,'none',,3-4,0.1269841269841269
+Home & Garden,Alcohol,u'full_bar',,3-4,0.1269841269841269
+Home & Garden,Alcohol,'beer_and_wine',,3-4,0.0634920634920634
+Home & Garden,Alcohol,u'none',,4-5,0.4945598417408506
+Home & Garden,Alcohol,'none',,4-5,0.2472799208704253
+Home & Garden,Alcohol,u'full_bar',,4-5,0.1978239366963402
+Home & Garden,Alcohol,u'beer_and_wine',,4-5,0.0989119683481701
+Home & Garden,Alcohol,,,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,24.88888888888889
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,21.333333333333336
+Home & Garden,BusinessParking,,,1-2,4.0
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,4.0
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,1.7777777777777777
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,1.3333333333333337
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,1-2,0.4444444444444444
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,1-2,0.4444444444444444
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,44.47731755424063
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,22.97830374753452
+Home & Garden,BusinessParking,,,2-3,3.2544378698224854
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,2.7613412228796843
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,1.6765285996055226
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.9861932938856016
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.7889546351084813
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.3944773175542406
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.1972386587771203
+Home & Garden,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.0986193293885601
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.0986193293885601
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0986193293885601
+Home & Garden,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': False, u'valet': False}",,2-3,0.0986193293885601
+Home & Garden,BusinessParking,{'garage': False},,2-3,0.0986193293885601
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,42.34920634920635
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,24.0
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,4.9523809523809526
+Home & Garden,BusinessParking,,,3-4,3.8095238095238098
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,2.5396825396825395
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.9523809523809524
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.8888888888888888
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.5079365079365079
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.3174603174603174
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1269841269841269
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1269841269841269
+Home & Garden,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.1269841269841269
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0634920634920634
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,32.59149357072206
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,20.47477744807121
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,11.275964391691394
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,4.747774480712167
+Home & Garden,BusinessParking,,,4-5,4.055390702274975
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.741839762611276
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.6429277942631058
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.4451038575667655
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.2967359050445104
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1978239366963402
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0989119683481701
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0989119683481701
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0989119683481701
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0989119683481701
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0989119683481701
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.049455984174085
+Home & Garden,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,4-5,0.049455984174085
