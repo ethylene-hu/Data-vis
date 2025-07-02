@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business表字段分析</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 配置 Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6', // 蓝色作为主色调，代表数据和专业性
+            secondary: '#10B981', // 绿色作为辅助色
+            accent: '#8B5CF6', // 紫色作为强调色
+            neutral: '#1F2937', // 深灰色作为文本主色
+            'neutral-light': '#F3F4F6', // 浅灰色作为背景色
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .card-shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+            .hover-scale {
+                transition: transform 0.3s ease;
+            }
+            .hover-scale:hover {
+                transform: scale(1.02);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans text-neutral">
+  <!-- 顶部导航栏 -->
+  <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa fa-database text-primary text-2xl"></i>
+        <h1 class="text-xl md:text-2xl font-bold text-neutral">Business表字段分析</h1>
+      </div>
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="#single-table-analysis" class="text-neutral hover:text-primary transition-colors">单表分析</a>
+        <a href="#category-analysis" class="text-neutral hover:text-primary transition-colors">分类分析</a>
+        <a href="#joint-table-analysis" class="text-neutral hover:text-primary transition-colors">联合表分析</a>
+      </nav>
+      <button class="md:hidden text-neutral text-xl" id="mobile-menu-button">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+    <!-- 移动端菜单 -->
+    <div class="md:hidden hidden bg-white absolute w-full shadow-lg" id="mobile-menu">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#single-table-analysis" class="py-2 text-neutral hover:text-primary transition-colors">单表分析</a>
+        <a href="#category-analysis" class="py-2 text-neutral hover:text-primary transition-colors">分类分析</a>
+        <a href="#joint-table-analysis" class="py-2 text-neutral hover:text-primary transition-colors">联合表分析</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="container mx-auto px-4 pt-24 pb-16">
+    <!-- 左侧导航边栏 - 桌面版 -->
+    <div
+      class="hidden lg:block fixed left-0 top-0 bottom-0 w-64 bg-white shadow-md pt-24 overflow-y-auto scrollbar-hide">
+      <nav class="px-4 py-6 space-y-4">
+        <div class="text-sm font-semibold text-gray-500 mb-2">内容导航</div>
+        <a href="#single-table-analysis"
+          class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium">单表字段分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#name-stars" class="block py-1 text-gray-600 hover:text-primary">Business.name ~ 平均评分</a>
+          <a href="#city-stars" class="block py-1 text-gray-600 hover:text-primary">Business.city ~ 平均评分</a>
+          <a href="#state-percent" class="block py-1 text-gray-600 hover:text-primary">Business.state 占比</a>
+          <a href="#name-count" class="block py-1 text-gray-600 hover:text-primary">Business.name 数量</a>
+          <a href="#categories-count" class="block py-1 text-gray-600 hover:text-primary">Business.categories 数量</a>
+        </div>
+
+        <a href="#category-analysis"
+          class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium mt-4">分类分析</a>
+
+        <a href="#joint-table-analysis"
+          class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium mt-4">联合表分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#checkin-heatmap" class="block py-1 text-gray-600 hover:text-primary">城市打卡热力图</a>
+          <a href="#stars-influence" class="block py-1 text-gray-600 hover:text-primary">评分影响因素</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- 右侧内容区 -->
+    <div class="lg:ml-64">
+      <!-- 页面介绍 -->
+      <section class="mb-12 text-center">
+        <h1 class="text-[clamp(1.75rem,4vw,2.5rem)] font-bold text-neutral mb-4">Business表字段分析报告</h1>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          本报告基于Business数据集，从单表分析、分类分析和联合表分析三个维度，对数据进行了深入挖掘和可视化展示，旨在揭示业务运营中的关键指标和潜在规律。</p>
+      </section>
+
+      <!-- 单表字段分析 -->
+      <section id="single-table-analysis" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-table text-primary mr-2"></i>
+            单表字段分析
+          </h2>
+          <p class="text-gray-600 mb-4">数据路径：A:\1shixu\1\Processed\Business\zjk-business\results</p>
+
+          <!-- Business.name ~ 平均评分（Business.stars） -->
+          <div id="name-stars" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-star text-yellow-500 mr-2"></i>
+              Business.name ~ 平均评分（Business.stars）
+            </h3>
+            <p class="text-gray-600 mb-4">展示平均评分降序排列的前20个Business.name</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入Business.name与平均评分的图表URL -->
+              <img src=".\Business\zjk-business\results\average_ratings_by_business.png" alt="Business名称与平均评分关系图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- Business.city~平均评分（Business.stars） -->
+          <div id="city-stars" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-map-marker text-red-500 mr-2"></i>
+              Business.city~平均评分（Business.stars）
+            </h3>
+            <p class="text-gray-600 mb-4">按城市分组展示平均评分降序的前20个Business</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入Business.city与平均评分的图表URL -->
+              <img src=".\Business\zjk-business\results\average_ratings_by_city.png" alt="城市与平均评分关系图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- percent（Business.state ） -->
+          <div id="state-percent" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-pie-chart text-accent mr-2"></i>
+              percent（Business.state ）
+            </h3>
+            <p class="text-gray-600 mb-4">各个state下的记录占比</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入state占比的饼状图URL -->
+              <img src=".\Business\zjk-business\results\businesses_by_state.png" alt="各州记录占比饼图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- cnt （Business.name） -->
+          <div id="name-count" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-list-ol text-secondary mr-2"></i>
+              cnt （Business.name）
+            </h3>
+            <p class="text-gray-600 mb-4">展示数量降序排列的前20个Business.name</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入Business.name数量的图表URL -->
+              <img src=".\Business\zjk-business\results\most_common_businesses.png" alt="Business名称数量分布图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- cnt（Business.categories） -->
+          <div id="categories-count" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-tags text-blue-500 mr-2"></i>
+              cnt（Business.categories）
+            </h3>
+            <p class="text-gray-600 mb-4">展示分类数量降序排列的前20个categories</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入Business.categories数量的图表URL -->
+              <img src=".\Business\zjk-business\results\most_common_categories.png" alt="分类数量分布图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类分析 -->
+      <section id="category-analysis" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-sitemap text-primary mr-2"></i>
+            分类分析
+          </h2>
+          <p class="text-gray-600 mb-4">数据路径：A:\1shixu\1\Processed\Business\zjk-category-ana\category-ana</p>
+          <p class="text-gray-600 mb-6">按不同categories分组，分析attributes对stars的影响</p>
+
+          <!-- 相关性词云图 -->
+          <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-cloud text-accent mr-2"></i>
+              相关性词云图
+            </h3>
+            <!-- 此处插入相关性词云图的URL -->
+            <img src=".\Business\zjk-category-ana\zjk-correlation\相关性词云图\相关性词云图\automotive正相关.png" alt="属性相关性词云图"
+              class="w-full h-auto rounded-lg">
+          </div>
+          <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-cloud text-accent mr-2"></i>
+              相关性词云图
+            </h3>
+            <!-- 此处插入相关性词云图的URL -->
+            <img src=".\Business\zjk-category-ana\zjk-correlation\相关性词云图\相关性词云图\automotive负相关.png" alt="属性相关性词云图"
+              class="w-full h-auto rounded-lg">
+          </div>
+        </div>
+      </section>
+
+      <!-- 联合表分析 -->
+      <section id="joint-table-analysis" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-link text-primary mr-2"></i>
+            联合表分析
+          </h2>
+
+          <!-- 城市打卡数热力图 -->
+          <div id="checkin-heatmap" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-map text-red-500 mr-2"></i>
+              Business + check-in 城市打卡数热力图
+            </h3>
+            <p class="text-gray-600 mb-4">数据路径：A:、\1shixu\1\Processed\Business\ljy-Business-location-热门城市分析</p>
+            <p class="text-gray-600 mb-4">展示Business.state + city + cnt(check-in) => 城市打卡数的分布图</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入城市打卡数热力图的URL -->
+              <img src=".\Business\ljy-Business-location-热门城市分析\热门城市分析\热力图.png" alt="城市打卡数热力图" class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- Business.stars被影响的可能性 -->
+          <div id="stars-influence" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-line-chart text-secondary mr-2"></i>
+              Business.stars被影响的可能性
+            </h3>
+            <p class="text-gray-600 mb-4">数据路径：A:\1shixu\1\Processed\Business\ljy-checkin+Business-打卡和评分</p>
+            <p class="text-gray-600 mb-4">分析checkin数量、时间分布等因素对评分的影响</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Checkin数量对评分的影响 -->
+              <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+                <h4 class="font-semibold text-neutral mb-2">checkin数量对评分的影响</h4>
+                <!-- 此处插入checkin数量与评分关系的图表URL -->
+                <img src=".\Business\ljy-checkin+Business-打卡和评分\影响评分商家stars的可能维度\rating_distribution_pie_chart.png" alt="checkin数量与评分关系图"
+                  class="w-full h-auto rounded-lg">
+              </div>
+
+              <!-- 按年统计的checkin数量 -->
+              <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+                <h4 class="font-semibold text-neutral mb-2">按年统计的checkin数量</h4>
+                <!-- 此处插入按年统计的checkin数量图表URL -->
+                <img src=".\Business\ljy-checkin+Business-打卡和评分\check-in打卡\checkin_counts_by_year_line_chart.png" alt="按年统计的checkin数量图"
+                  class="w-full h-auto rounded-lg">
+              </div>
+
+              <!-- 按24小时统计的checkin数量 -->
+              <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+                <h4 class="font-semibold text-neutral mb-2">按24小时统计的checkin数量</h4>
+                <!-- 此处插入按24小时统计的checkin数量图表URL -->
+                <img src=".\Business\ljy-checkin+Business-打卡和评分\check-in打卡\checkin_counts_per_hour_line_chart.png" alt="按24小时统计的checkin数量图"
+                  class="w-full h-auto rounded-lg">
+              </div>
+
+              <!-- 按城市统计的checkin数量 -->
+              <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+                <h4 class="font-semibold text-neutral mb-2">按城市统计的checkin数量</h4>
+                <!-- 此处插入按城市统计的checkin数量图表URL -->
+                <img src=".\Business\ljy-checkin+Business-打卡和评分\check-in打卡\top_cities_checkin_table.png" alt="按城市统计的checkin数量图"
+                  class="w-full h-auto rounded-lg">
+              </div>
+
+              <!-- 星期几与评分关系 -->
+              <div class="bg-neutral-light rounded-lg p-4 hover-scale col-span-1 md:col-span-2">
+                <h4 class="font-semibold text-neutral mb-2">星期几与评分关系</h4>
+                <!-- 此处插入星期几与评分关系的图表URL -->
+                <img src=".\Business\ljy-checkin+Business-打卡和评分\影响评分商家stars的可能维度\rating_distribution_by_weekday_pie_chart.png" alt="星期几与评分关系图" class="w-full h-auto rounded-lg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-neutral text-white py-8">
+    <div class="container mx-auto px-4 lg:ml-64">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <div class="flex items-center space-x-2">
+            <i class="fa fa-database text-primary text-xl"></i>
+            <span class="font-bold text-lg">Business表字段分析</span>
+          </div>
+          <p class="text-gray-400 mt-2">数据驱动决策，分析洞察未来</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-github text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-linkedin text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-twitter text-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+        <p>&copy; 2025 Business Analytics. 保留所有权利。</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 返回顶部按钮 -->
+  <button id="back-to-top"
+    class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // 移动端菜单切换
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 滚动时导航栏样式变化
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        navbar.classList.add('py-2');
+        navbar.classList.add('shadow-lg');
+      } else {
+        navbar.classList.remove('py-2');
+        navbar.classList.remove('shadow-lg');
+      }
+    });
+
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+
+          // 如果是移动端，点击后关闭菜单
+          if (!mobileMenu.classList.contains('hidden')) {
+            mobileMenu.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    // 返回顶部按钮
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.add('opacity-0', 'invisible');
+        backToTopButton.classList.remove('opacity-100', 'visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
+</html>

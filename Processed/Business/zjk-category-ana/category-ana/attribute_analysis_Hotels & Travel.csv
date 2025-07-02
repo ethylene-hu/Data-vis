@@ -1,0 +1,181 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Hotels & Travel,BusinessAcceptsCreditCards,True,,1-2,92.7710843373494
+Hotels & Travel,BusinessAcceptsCreditCards,False,,1-2,2.108433734939759
+Hotels & Travel,BusinessAcceptsCreditCards,True,,2-3,92.88840262582056
+Hotels & Travel,BusinessAcceptsCreditCards,,,2-3,0.2188183807439825
+Hotels & Travel,BusinessAcceptsCreditCards,False,,2-3,0.2188183807439825
+Hotels & Travel,BusinessAcceptsCreditCards,True,,3-4,89.8365316275764
+Hotels & Travel,BusinessAcceptsCreditCards,False,,3-4,1.0660980810234542
+Hotels & Travel,BusinessAcceptsCreditCards,True,,4-5,76.94831829368334
+Hotels & Travel,BusinessAcceptsCreditCards,False,,4-5,2.871205906480722
+Hotels & Travel,BikeParking,False,,1-2,0.3012048192771084
+Hotels & Travel,BikeParking,True,,2-3,4.157549234135667
+Hotels & Travel,BikeParking,False,,2-3,2.735229759299781
+Hotels & Travel,BikeParking,True,,3-4,9.097370291400145
+Hotels & Travel,BikeParking,False,,3-4,3.482587064676617
+Hotels & Travel,BikeParking,True,,4-5,17.719442165709598
+Hotels & Travel,BikeParking,False,,4-5,3.7735849056603774
+Hotels & Travel,WheelchairAccessible,True,,1-2,4.216867469879518
+Hotels & Travel,WheelchairAccessible,True,,2-3,6.017505470459518
+Hotels & Travel,WheelchairAccessible,False,,2-3,0.1094091903719912
+Hotels & Travel,WheelchairAccessible,True,,3-4,14.285714285714285
+Hotels & Travel,WheelchairAccessible,False,,3-4,0.4264392324093816
+Hotels & Travel,WheelchairAccessible,,,3-4,0.1421464108031272
+Hotels & Travel,WheelchairAccessible,True,,4-5,14.35602953240361
+Hotels & Travel,WheelchairAccessible,False,,4-5,2.3789991796554557
+Hotels & Travel,OutdoorSeating,False,,1-2,0.6024096385542169
+Hotels & Travel,OutdoorSeating,True,,1-2,0.3012048192771084
+Hotels & Travel,OutdoorSeating,False,,2-3,4.595185995623632
+Hotels & Travel,OutdoorSeating,True,,2-3,3.282275711159737
+Hotels & Travel,OutdoorSeating,True,,3-4,7.036247334754798
+Hotels & Travel,OutdoorSeating,False,,3-4,6.823027718550106
+Hotels & Travel,OutdoorSeating,,,3-4,0.1421464108031272
+Hotels & Travel,OutdoorSeating,True,,4-5,6.6447908121411
+Hotels & Travel,OutdoorSeating,False,,4-5,4.5118949958982775
+Hotels & Travel,OutdoorSeating,,,4-5,0.8203445447087777
+Hotels & Travel,HasTV,True,,1-2,0.6024096385542169
+Hotels & Travel,HasTV,True,,2-3,8.096280087527353
+Hotels & Travel,HasTV,False,,2-3,0.1094091903719912
+Hotels & Travel,HasTV,True,,3-4,11.442786069651742
+Hotels & Travel,HasTV,False,,3-4,1.4925373134328357
+Hotels & Travel,HasTV,True,,4-5,7.054963084495489
+Hotels & Travel,HasTV,False,,4-5,3.855619360131255
+Hotels & Travel,WiFi,u'free',,1-2,45.48192771084337
+Hotels & Travel,WiFi,'free',,1-2,24.09638554216868
+Hotels & Travel,WiFi,u'no',,1-2,6.325301204819277
+Hotels & Travel,WiFi,u'paid',,1-2,3.0120481927710845
+Hotels & Travel,WiFi,'no',,1-2,2.710843373493976
+Hotels & Travel,WiFi,'paid',,1-2,0.9036144578313252
+Hotels & Travel,WiFi,u'free',,2-3,57.439824945295406
+Hotels & Travel,WiFi,'free',,2-3,17.39606126914661
+Hotels & Travel,WiFi,u'paid',,2-3,4.048140043763676
+Hotels & Travel,WiFi,u'no',,2-3,3.719912472647703
+Hotels & Travel,WiFi,'no',,2-3,0.9846827133479212
+Hotels & Travel,WiFi,'paid',,2-3,0.87527352297593
+Hotels & Travel,WiFi,u'free',,3-4,59.13290689410092
+Hotels & Travel,WiFi,'free',,3-4,14.57000710732054
+Hotels & Travel,WiFi,u'paid',,3-4,4.832977967306325
+Hotels & Travel,WiFi,u'no',,3-4,4.690831556503198
+Hotels & Travel,WiFi,'no',,3-4,1.137171286425018
+Hotels & Travel,WiFi,'paid',,3-4,0.7107320540156361
+Hotels & Travel,WiFi,u'free',,4-5,49.22067268252666
+Hotels & Travel,WiFi,'free',,4-5,10.254306808859722
+Hotels & Travel,WiFi,u'no',,4-5,9.844134536505331
+Hotels & Travel,WiFi,u'paid',,4-5,2.1328958162428218
+Hotels & Travel,WiFi,'no',,4-5,1.6406890894175554
+Hotels & Travel,WiFi,'paid',,4-5,0.3281378178835111
+Hotels & Travel,WiFi,,,4-5,0.1640689089417555
+Hotels & Travel,Alcohol,u'none',,1-2,0.3012048192771084
+Hotels & Travel,Alcohol,u'full_bar',,2-3,4.3763676148796495
+Hotels & Travel,Alcohol,u'none',,2-3,1.75054704595186
+Hotels & Travel,Alcohol,'full_bar',,2-3,1.312910284463895
+Hotels & Travel,Alcohol,'none',,2-3,0.5470459518599562
+Hotels & Travel,Alcohol,'beer_and_wine',,2-3,0.1094091903719912
+Hotels & Travel,Alcohol,u'full_bar',,3-4,8.102345415778252
+Hotels & Travel,Alcohol,'full_bar',,3-4,2.4875621890547266
+Hotels & Travel,Alcohol,u'none',,3-4,1.2082444918265811
+Hotels & Travel,Alcohol,'none',,3-4,0.7107320540156361
+Hotels & Travel,Alcohol,u'beer_and_wine',,3-4,0.5685856432125089
+Hotels & Travel,Alcohol,'beer_and_wine',,3-4,0.0710732054015636
+Hotels & Travel,Alcohol,u'full_bar',,4-5,6.398687448728466
+Hotels & Travel,Alcohol,'full_bar',,4-5,1.6406890894175554
+Hotels & Travel,Alcohol,u'none',,4-5,1.4766201804757997
+Hotels & Travel,Alcohol,u'beer_and_wine',,4-5,0.9023789991796556
+Hotels & Travel,Alcohol,'beer_and_wine',,4-5,0.4922067268252666
+Hotels & Travel,Alcohol,'none',,4-5,0.2461033634126333
+Hotels & Travel,Alcohol,,,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.3012048192771084
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,4.157549234135667
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,2.1881838074398248
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.7658643326039387
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.3282275711159737
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.3282275711159737
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.2188183807439825
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.2188183807439825
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.2188183807439825
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': False, u'validated': False}",,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,,,2-3,0.1094091903719912
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,6.183368869936034
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,2.985074626865672
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,1.3503909026297083
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.137171286425018
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.7818052594171997
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.7818052594171997
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.355366027007818
+Hotels & Travel,BusinessParking,,,3-4,0.355366027007818
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.355366027007818
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.2842928216062544
+Hotels & Travel,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.2842928216062544
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.2842928216062544
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.2132196162046908
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.2132196162046908
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.2132196162046908
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,3-4,0.1421464108031272
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': True}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0710732054015636
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,7.793273174733388
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,5.496308449548811
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,3.281378178835111
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,2.461033634126333
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,1.394585726004922
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.9844134536505332
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.8203445447087777
+Hotels & Travel,BusinessParking,,,4-5,0.7383100902378998
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.4922067268252666
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.3281378178835111
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.3281378178835111
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.2461033634126333
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1640689089417555
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1640689089417555
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': False}",,4-5,0.1640689089417555
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1640689089417555
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': True, u'garage': False, u'street': True, u'lot': False, u'validated': True}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'validated': False, 'street': False, 'lot': False, 'valet': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0820344544708777
+Hotels & Travel,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0820344544708777

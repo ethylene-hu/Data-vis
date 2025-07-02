@@ -1,0 +1,155 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Automotive,BusinessAcceptsCreditCards,True,,1-2,86.79775280898876
+Automotive,BusinessAcceptsCreditCards,False,,1-2,7.865168539325842
+Automotive,BusinessAcceptsCreditCards,True,,2-3,93.57495881383856
+Automotive,BusinessAcceptsCreditCards,False,,2-3,3.130148270181219
+Automotive,BusinessAcceptsCreditCards,,,2-3,0.0549148819330038
+Automotive,BusinessAcceptsCreditCards,True,,3-4,96.75870348139256
+Automotive,BusinessAcceptsCreditCards,False,,3-4,1.8407362945178072
+Automotive,BusinessAcceptsCreditCards,True,,4-5,95.38303693570452
+Automotive,BusinessAcceptsCreditCards,False,,4-5,3.0437756497948016
+Automotive,BusinessAcceptsCreditCards,,,4-5,0.1367989056087551
+Automotive,BikeParking,True,,1-2,3.3707865168539324
+Automotive,BikeParking,False,,1-2,2.808988764044944
+Automotive,BikeParking,,,1-2,0.2808988764044944
+Automotive,BikeParking,True,,2-3,6.754530477759473
+Automotive,BikeParking,False,,2-3,3.3498077979132344
+Automotive,BikeParking,True,,3-4,8.16326530612245
+Automotive,BikeParking,False,,3-4,3.081232492997199
+Automotive,BikeParking,True,,4-5,5.64295485636115
+Automotive,BikeParking,False,,4-5,1.7099863201094392
+Automotive,WheelchairAccessible,True,,1-2,2.247191011235955
+Automotive,WheelchairAccessible,True,,2-3,2.0318506315211424
+Automotive,WheelchairAccessible,False,,2-3,0.0549148819330038
+Automotive,WheelchairAccessible,True,,3-4,2.2408963585434174
+Automotive,WheelchairAccessible,True,,4-5,1.880984952120383
+Automotive,WheelchairAccessible,False,,4-5,0.2393980848153215
+Automotive,OutdoorSeating,False,,1-2,0.2808988764044944
+Automotive,OutdoorSeating,False,,2-3,0.9884678747940692
+Automotive,OutdoorSeating,True,,2-3,0.2745744096650192
+Automotive,OutdoorSeating,,,2-3,0.2196595277320153
+Automotive,OutdoorSeating,False,,3-4,1.0404161664665863
+Automotive,OutdoorSeating,True,,3-4,0.7603041216486595
+Automotive,OutdoorSeating,,,3-4,0.2000800320128051
+Automotive,OutdoorSeating,True,,4-5,0.6839945280437756
+Automotive,OutdoorSeating,False,,4-5,0.5471956224350205
+Automotive,OutdoorSeating,,,4-5,0.1025991792065663
+Automotive,HasTV,True,,1-2,0.2808988764044944
+Automotive,HasTV,False,,1-2,0.2808988764044944
+Automotive,HasTV,True,,2-3,0.9335529928610654
+Automotive,HasTV,False,,2-3,0.2196595277320153
+Automotive,HasTV,True,,3-4,2.1208483393357342
+Automotive,HasTV,False,,3-4,0.2000800320128051
+Automotive,HasTV,True,,4-5,0.9233926128590972
+Automotive,HasTV,False,,4-5,0.2051983584131327
+Automotive,WiFi,u'free',,1-2,12.640449438202248
+Automotive,WiFi,u'no',,1-2,2.528089887640449
+Automotive,WiFi,u'paid',,1-2,0.5617977528089888
+Automotive,WiFi,u'free',,2-3,19.87918725974739
+Automotive,WiFi,u'no',,2-3,3.2948929159802307
+Automotive,WiFi,u'paid',,2-3,0.2196595277320153
+Automotive,WiFi,'free',,2-3,0.1647446457990115
+Automotive,WiFi,'no',,2-3,0.1098297638660076
+Automotive,WiFi,u'free',,3-4,20.968387354941974
+Automotive,WiFi,u'no',,3-4,3.6414565826330536
+Automotive,WiFi,'free',,3-4,0.8003201280512205
+Automotive,WiFi,u'paid',,3-4,0.5602240896358543
+Automotive,WiFi,'no',,3-4,0.1600640256102441
+Automotive,WiFi,u'free',,4-5,26.06019151846785
+Automotive,WiFi,u'no',,4-5,6.908344733242135
+Automotive,WiFi,u'paid',,4-5,0.478796169630643
+Automotive,WiFi,'free',,4-5,0.478796169630643
+Automotive,WiFi,'no',,4-5,0.2051983584131327
+Automotive,WiFi,,,4-5,0.0341997264021887
+Automotive,Alcohol,u'none',,2-3,0.5491488193300385
+Automotive,Alcohol,'none',,2-3,0.2196595277320153
+Automotive,Alcohol,u'beer_and_wine',,2-3,0.1098297638660076
+Automotive,Alcohol,u'full_bar',,2-3,0.1098297638660076
+Automotive,Alcohol,'none',,3-4,0.5602240896358543
+Automotive,Alcohol,u'none',,3-4,0.4001600640256103
+Automotive,Alcohol,u'beer_and_wine',,3-4,0.2400960384153661
+Automotive,Alcohol,u'full_bar',,3-4,0.1600640256102441
+Automotive,Alcohol,'beer_and_wine',,3-4,0.120048019207683
+Automotive,Alcohol,'full_bar',,3-4,0.080032012805122
+Automotive,Alcohol,u'none',,4-5,0.3761969904240766
+Automotive,Alcohol,'none',,4-5,0.1367989056087551
+Automotive,Alcohol,'full_bar',,4-5,0.1025991792065663
+Automotive,Alcohol,u'full_bar',,4-5,0.1025991792065663
+Automotive,Alcohol,'beer_and_wine',,4-5,0.1025991792065663
+Automotive,Alcohol,u'beer_and_wine',,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,5.056179775280898
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,1.9662921348314608
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,0.5617977528089888
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,1-2,0.2808988764044944
+Automotive,BusinessParking,,,1-2,0.2808988764044944
+Automotive,BusinessParking,{},,1-2,0.2808988764044944
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2808988764044944
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,7.193849533223504
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,3.898956617243273
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.3294892915980231
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.3294892915980231
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,2-3,0.2196595277320153
+Automotive,BusinessParking,,,2-3,0.2196595277320153
+Automotive,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.1098297638660076
+Automotive,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.1098297638660076
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.1098297638660076
+Automotive,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,{'garage': False},,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,{},,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0549148819330038
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,7.482993197278912
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,4.641856742697079
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.4801920768307323
+Automotive,BusinessParking,,,3-4,0.4001600640256103
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.2801120448179272
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2000800320128051
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.2000800320128051
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.120048019207683
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,3-4,0.120048019207683
+Automotive,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.080032012805122
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,3-4,0.040016006402561
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,4.890560875512996
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,2.0519835841313268
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.3419972640218878
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.307797537619699
+Automotive,BusinessParking,,,4-5,0.2735978112175102
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.2051983584131327
+Automotive,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0683994528043775
+Automotive,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0683994528043775
+Automotive,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0683994528043775
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0341997264021887
+Automotive,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0341997264021887

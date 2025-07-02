@@ -1,0 +1,182 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Fashion,BusinessAcceptsCreditCards,True,,1-2,83.87096774193549
+Fashion,BusinessAcceptsCreditCards,False,,1-2,1.2903225806451613
+Fashion,BusinessAcceptsCreditCards,True,,2-3,89.2233009708738
+Fashion,BusinessAcceptsCreditCards,False,,2-3,0.7766990291262136
+Fashion,BusinessAcceptsCreditCards,True,,3-4,90.51321928460342
+Fashion,BusinessAcceptsCreditCards,False,,3-4,1.347848626231208
+Fashion,BusinessAcceptsCreditCards,True,,4-5,91.20992761116857
+Fashion,BusinessAcceptsCreditCards,False,,4-5,1.2926577042399172
+Fashion,BikeParking,True,,1-2,51.61290322580645
+Fashion,BikeParking,False,,1-2,16.7741935483871
+Fashion,BikeParking,,,1-2,0.6451612903225806
+Fashion,BikeParking,True,,2-3,52.33009708737863
+Fashion,BikeParking,False,,2-3,24.660194174757283
+Fashion,BikeParking,True,,3-4,55.62467599792639
+Fashion,BikeParking,False,,3-4,22.809745982374288
+Fashion,BikeParking,,,3-4,0.1036806635562467
+Fashion,BikeParking,True,,4-5,60.9617373319545
+Fashion,BikeParking,False,,4-5,15.046535677352638
+Fashion,WheelchairAccessible,True,,1-2,4.516129032258064
+Fashion,WheelchairAccessible,False,,1-2,1.2903225806451613
+Fashion,WheelchairAccessible,True,,2-3,11.747572815533982
+Fashion,WheelchairAccessible,False,,2-3,0.4854368932038834
+Fashion,WheelchairAccessible,True,,3-4,20.476931052358736
+Fashion,WheelchairAccessible,False,,3-4,1.1404872991187145
+Fashion,WheelchairAccessible,True,,4-5,26.628748707342297
+Fashion,WheelchairAccessible,False,,4-5,3.1540847983453983
+Fashion,OutdoorSeating,False,,1-2,0.6451612903225806
+Fashion,OutdoorSeating,False,,2-3,3.203883495145631
+Fashion,OutdoorSeating,True,,2-3,0.1941747572815534
+Fashion,OutdoorSeating,False,,3-4,6.480041472265423
+Fashion,OutdoorSeating,True,,3-4,0.5184033177812338
+Fashion,OutdoorSeating,,,3-4,0.0518403317781233
+Fashion,OutdoorSeating,False,,4-5,1.9648397104446744
+Fashion,OutdoorSeating,True,,4-5,0.9307135470527405
+Fashion,OutdoorSeating,,,4-5,0.0517063081695967
+Fashion,HasTV,False,,1-2,0.6451612903225806
+Fashion,HasTV,False,,2-3,3.0097087378640777
+Fashion,HasTV,True,,2-3,0.2912621359223301
+Fashion,HasTV,False,,3-4,6.2208398133748055
+Fashion,HasTV,True,,3-4,0.3628823224468636
+Fashion,HasTV,False,,4-5,1.6546018614270943
+Fashion,HasTV,True,,4-5,0.4653567735263702
+Fashion,WiFi,u'no',,1-2,1.2903225806451613
+Fashion,WiFi,u'no',,2-3,4.077669902912621
+Fashion,WiFi,u'free',,2-3,0.6796116504854369
+Fashion,WiFi,'free',,2-3,0.1941747572815534
+Fashion,WiFi,'no',,2-3,0.0970873786407767
+Fashion,WiFi,u'no',,3-4,7.102125453602904
+Fashion,WiFi,u'free',,3-4,1.2960082944530846
+Fashion,WiFi,'free',,3-4,0.5702436495593572
+Fashion,WiFi,'no',,3-4,0.2592016588906169
+Fashion,WiFi,u'paid',,3-4,0.1555209953343701
+Fashion,WiFi,,,3-4,0.0518403317781233
+Fashion,WiFi,u'no',,4-5,2.9472595656670117
+Fashion,WiFi,u'free',,4-5,2.792140641158221
+Fashion,WiFi,'free',,4-5,0.3102378490175801
+Fashion,WiFi,'no',,4-5,0.1034126163391934
+Fashion,Alcohol,'none',,1-2,0.6451612903225806
+Fashion,Alcohol,'beer_and_wine',,2-3,0.4854368932038834
+Fashion,Alcohol,u'none',,2-3,0.3883495145631068
+Fashion,Alcohol,'none',,2-3,0.2912621359223301
+Fashion,Alcohol,'full_bar',,2-3,0.2912621359223301
+Fashion,Alcohol,u'full_bar',,2-3,0.0970873786407767
+Fashion,Alcohol,u'none',,3-4,0.3110419906687403
+Fashion,Alcohol,'beer_and_wine',,3-4,0.2592016588906169
+Fashion,Alcohol,u'full_bar',,3-4,0.1555209953343701
+Fashion,Alcohol,u'beer_and_wine',,3-4,0.1036806635562467
+Fashion,Alcohol,'none',,3-4,0.1036806635562467
+Fashion,Alcohol,'full_bar',,3-4,0.0518403317781233
+Fashion,Alcohol,u'none',,4-5,0.5170630816959669
+Fashion,Alcohol,'none',,4-5,0.2585315408479834
+Fashion,Alcohol,u'beer_and_wine',,4-5,0.15511892450879
+Fashion,Alcohol,'beer_and_wine',,4-5,0.15511892450879
+Fashion,Alcohol,'full_bar',,4-5,0.1034126163391934
+Fashion,Alcohol,u'full_bar',,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,41.935483870967744
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,31.61290322580645
+Fashion,BusinessParking,,,1-2,3.225806451612903
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,2.5806451612903225
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,1.2903225806451613
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,1.2903225806451613
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,1.2903225806451613
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,1-2,0.6451612903225806
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,47.66990291262136
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,28.25242718446602
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,4.951456310679612
+Fashion,BusinessParking,,,2-3,3.689320388349514
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,2.912621359223301
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,1.0679611650485437
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.6796116504854369
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.4854368932038834
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.3883495145631068
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.1941747572815534
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.1941747572815534
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': None}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': True, u'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0970873786407767
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,41.99066874027994
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,25.401762571280457
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,11.19751166407465
+Fashion,BusinessParking,,,3-4,4.302747537584241
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,3.162260238465526
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,2.7993779160186625
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.3996889580093312
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,1.347848626231208
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.4665629860031104
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.3110419906687403
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2073613271124935
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2073613271124935
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.2073613271124935
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1555209953343701
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1036806635562467
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.1036806635562467
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,3-4,0.1036806635562467
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1036806635562467
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': True}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0518403317781233
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,29.627714581178903
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,23.26783867631851
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,23.11271975180972
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,5.946225439503619
+Fashion,BusinessParking,,,4-5,2.792140641158221
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,2.688728024819028
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.9131334022750777
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.5687693898655636
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.2068252326783868
+Fashion,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.2068252326783868
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.15511892450879
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.15511892450879
+Fashion,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.15511892450879
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.15511892450879
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1034126163391934
+Fashion,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1034126163391934
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1034126163391934
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1034126163391934
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1034126163391934
+Fashion,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{u'valet': True, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0517063081695967
+Fashion,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0517063081695967

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户评论分析</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 配置Tailwind自定义颜色和字体 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6', // 蓝色主色调，代表专业性和数据
+            secondary: '#10B981', // 绿色辅助色，代表活跃和优质
+            neutral: '#1F2937', // 深灰色文本
+            'neutral-light': '#F3F4F6', // 浅灰色背景
+            accent: '#8B5CF6', // 紫色强调色
+            active: '#22C55E', // 活跃用户颜色
+            silent: '#EF4444', // 沉默用户颜色
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans text-neutral">
+  <!-- 顶部导航栏 -->
+  <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa fa-users text-primary text-2xl"></i>
+        <h1 class="text-xl md:text-2xl font-bold text-neutral">用户评论分析</h1>
+      </div>
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="#user-analysis" class="text-neutral hover:text-primary transition-colors">用户活跃度分析</a>
+        <a href="#time-trend" class="text-neutral hover:text-primary transition-colors">时间趋势分析</a>
+      </nav>
+      <button class="md:hidden text-neutral text-xl" id="mobile-menu-button">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+    <!-- 移动端菜单 -->
+    <div class="md:hidden hidden bg-white absolute w-full shadow-lg" id="mobile-menu">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#user-analysis" class="py-2 text-neutral hover:text-primary transition-colors">用户活跃度分析</a>
+        <a href="#time-trend" class="py-2 text-neutral hover:text-primary transition-colors">时间趋势分析</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="container mx-auto px-4 pt-24 pb-16">
+    <!-- 左侧导航边栏 - 桌面版 -->
+    <div
+      class="hidden lg:block fixed left-0 top-0 bottom-0 w-64 bg-white shadow-md pt-24 overflow-y-auto scrollbar-hide">
+      <nav class="px-4 py-6 space-y-4">
+        <div class="text-sm font-semibold text-gray-500 mb-2">内容导航</div>
+        <a href="#user-analysis" class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium">用户活跃度分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#active-users" class="block py-1 text-gray-600 hover:text-primary">活跃用户分布</a>
+          <a href="#silent-users" class="block py-1 text-gray-600 hover:text-primary">沉默用户分布</a>
+        </div>
+
+        <a href="#time-trend" class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium mt-4">时间趋势分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#yearly-trend" class="block py-1 text-gray-600 hover:text-primary">年度趋势分析</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- 右侧内容区 -->
+    <div class="lg:ml-64">
+      <!-- 页面介绍 -->
+      <section class="mb-12 text-center">
+        <h1 class="text-[clamp(1.75rem,4vw,2.5rem)] font-bold text-neutral mb-4">用户评论行为分析报告</h1>
+        <p class="text-gray-600 max-w-3xl mx-auto">本报告基于用户评论数据集，分析用户活跃度分布和时间趋势，帮助理解用户参与度和行为模式，为产品优化和营销策略提供数据支持。</p>
+      </section>
+
+      <!-- 用户活跃度分析 -->
+      <section id="user-analysis" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-bar-chart text-primary mr-2"></i>
+            用户活跃度分析
+          </h2>
+
+          <!-- 活跃用户与沉默用户占比 -->
+          <div class="bg-neutral-light rounded-lg p-5 card-hover">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-pie-chart text-accent mr-2"></i>
+              活跃用户与沉默用户总体占比
+            </h3>
+            <p class="text-gray-600 mb-4">平台用户中活跃用户与沉默用户的比例分布</p>
+            <div class="rounded-lg overflow-hidden">
+              <!-- 此处插入活跃与沉默用户占比饼图URL -->
+              <img src=".\User\xh-用户分析\活跃用户和沉默用户.png" alt="活跃与沉默用户占比" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 时间趋势分析 -->
+      <section id="time-trend" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-line-chart text-primary mr-2"></i>
+            时间趋势分析
+          </h2>
+
+          <!-- 按年份分析优质用户与沉默用户占比 -->
+          <div id="yearly-trend" class="bg-neutral-light rounded-lg p-5 card-hover">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-calendar text-blue-500 mr-2"></i>
+              percent(year~优质用户&沉默用户)
+            </h3>
+            <p class="text-gray-600 mb-4">各年份优质用户与沉默用户的占比趋势</p>
+            <div class="rounded-lg overflow-hidden">
+              <!-- 此处插入年份与用户类型占比趋势图URL -->
+              <img src=".\User\xh-用户分析\活跃用户和沉默用户year.png" alt="年份与用户类型占比趋势" class="w-full h-auto">
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-neutral text-white py-8">
+    <div class="container mx-auto px-4 lg:ml-64">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <div class="flex items-center space-x-2">
+            <i class="fa fa-users text-primary text-xl"></i>
+            <span class="font-bold text-lg">用户评论分析</span>
+          </div>
+          <p class="text-gray-400 mt-2">数据驱动决策，分析洞察未来</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-github text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-linkedin text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-twitter text-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+        <p>&copy; 2025 用户分析报告. 保留所有权利。</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 返回顶部按钮 -->
+  <button id="back-to-top"
+    class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // 移动端菜单切换
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 滚动时导航栏样式变化
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        navbar.classList.add('py-2');
+        navbar.classList.add('shadow-lg');
+      } else {
+        navbar.classList.remove('py-2');
+        navbar.classList.remove('shadow-lg');
+      }
+    });
+
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+
+          // 如果是移动端，点击后关闭菜单
+          if (!mobileMenu.classList.contains('hidden')) {
+            mobileMenu.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    // 返回顶部按钮
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.add('opacity-0', 'invisible');
+        backToTopButton.classList.remove('opacity-100', 'visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
+</html>

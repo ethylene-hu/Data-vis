@@ -1,0 +1,369 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Coffee & Tea,BusinessAcceptsCreditCards,True,,1-2,87.33905579399142
+Coffee & Tea,BusinessAcceptsCreditCards,,,1-2,0.2145922746781116
+Coffee & Tea,BusinessAcceptsCreditCards,True,,2-3,87.33153638814017
+Coffee & Tea,BusinessAcceptsCreditCards,False,,2-3,0.3593890386343217
+Coffee & Tea,BusinessAcceptsCreditCards,True,,3-4,85.75547866205305
+Coffee & Tea,BusinessAcceptsCreditCards,False,,3-4,1.5570934256055362
+Coffee & Tea,BusinessAcceptsCreditCards,,,3-4,0.0576701268742791
+Coffee & Tea,BusinessAcceptsCreditCards,True,,4-5,84.51811346548187
+Coffee & Tea,BusinessAcceptsCreditCards,False,,4-5,2.802460697197539
+Coffee & Tea,BikeParking,True,,1-2,35.83690987124464
+Coffee & Tea,BikeParking,False,,1-2,25.10729613733906
+Coffee & Tea,BikeParking,,,1-2,0.2145922746781116
+Coffee & Tea,BikeParking,True,,2-3,48.42767295597484
+Coffee & Tea,BikeParking,False,,2-3,23.090745732255165
+Coffee & Tea,BikeParking,True,,3-4,59.688581314878896
+Coffee & Tea,BikeParking,False,,3-4,16.37831603229527
+Coffee & Tea,BikeParking,,,3-4,0.2306805074971165
+Coffee & Tea,BikeParking,True,,4-5,66.02870813397129
+Coffee & Tea,BikeParking,False,,4-5,10.868079289131922
+Coffee & Tea,BikeParking,,,4-5,0.0683526999316473
+Coffee & Tea,WheelchairAccessible,True,,1-2,3.004291845493562
+Coffee & Tea,WheelchairAccessible,False,,1-2,0.2145922746781116
+Coffee & Tea,WheelchairAccessible,True,,2-3,6.109613656783468
+Coffee & Tea,WheelchairAccessible,False,,2-3,0.0898472596585804
+Coffee & Tea,WheelchairAccessible,True,,3-4,14.186851211072666
+Coffee & Tea,WheelchairAccessible,False,,3-4,0.9803921568627452
+Coffee & Tea,WheelchairAccessible,True,,4-5,37.83321941216678
+Coffee & Tea,WheelchairAccessible,False,,4-5,4.6479835953520166
+Coffee & Tea,OutdoorSeating,False,,1-2,46.78111587982833
+Coffee & Tea,OutdoorSeating,True,,1-2,18.240343347639485
+Coffee & Tea,OutdoorSeating,,,1-2,4.506437768240343
+Coffee & Tea,OutdoorSeating,False,,2-3,44.0251572327044
+Coffee & Tea,OutdoorSeating,True,,2-3,28.481581311769997
+Coffee & Tea,OutdoorSeating,,,2-3,3.6837376460017968
+Coffee & Tea,OutdoorSeating,True,,3-4,52.82583621683968
+Coffee & Tea,OutdoorSeating,False,,3-4,27.162629757785467
+Coffee & Tea,OutdoorSeating,,,3-4,1.4994232987312572
+Coffee & Tea,OutdoorSeating,True,,4-5,58.3732057416268
+Coffee & Tea,OutdoorSeating,False,,4-5,24.33356117566644
+Coffee & Tea,OutdoorSeating,,,4-5,3.2809295967190706
+Coffee & Tea,HasTV,True,,1-2,57.5107296137339
+Coffee & Tea,HasTV,False,,1-2,1.072961373390558
+Coffee & Tea,HasTV,,,1-2,0.2145922746781116
+Coffee & Tea,HasTV,True,,2-3,32.79424977538185
+Coffee & Tea,HasTV,False,,2-3,3.7735849056603774
+Coffee & Tea,HasTV,True,,3-4,21.568627450980397
+Coffee & Tea,HasTV,False,,3-4,13.84083044982699
+Coffee & Tea,HasTV,,,3-4,0.0576701268742791
+Coffee & Tea,HasTV,False,,4-5,25.153793574846205
+Coffee & Tea,HasTV,True,,4-5,21.6678058783322
+Coffee & Tea,WiFi,u'free',,1-2,44.84978540772532
+Coffee & Tea,WiFi,'free',,1-2,33.047210300429185
+Coffee & Tea,WiFi,,,1-2,0.4291845493562232
+Coffee & Tea,WiFi,u'no',,1-2,0.2145922746781116
+Coffee & Tea,WiFi,'no',,1-2,0.2145922746781116
+Coffee & Tea,WiFi,u'free',,2-3,47.34950584007188
+Coffee & Tea,WiFi,'free',,2-3,35.93890386343217
+Coffee & Tea,WiFi,u'no',,2-3,1.527403414195867
+Coffee & Tea,WiFi,'no',,2-3,0.9883198562443846
+Coffee & Tea,WiFi,u'paid',,2-3,0.2695417789757413
+Coffee & Tea,WiFi,u'free',,3-4,55.30565167243368
+Coffee & Tea,WiFi,'free',,3-4,24.39446366782007
+Coffee & Tea,WiFi,u'no',,3-4,5.132641291810842
+Coffee & Tea,WiFi,'no',,3-4,2.1914648212226067
+Coffee & Tea,WiFi,'paid',,3-4,0.1730103806228373
+Coffee & Tea,WiFi,u'paid',,3-4,0.1153402537485582
+Coffee & Tea,WiFi,,,3-4,0.0576701268742791
+Coffee & Tea,WiFi,u'free',,4-5,61.61995898838004
+Coffee & Tea,WiFi,'free',,4-5,17.805878332194123
+Coffee & Tea,WiFi,u'no',,4-5,7.6896787423103214
+Coffee & Tea,WiFi,'no',,4-5,2.939166097060834
+Coffee & Tea,WiFi,u'paid',,4-5,0.1367053998632946
+Coffee & Tea,WiFi,'paid',,4-5,0.1025290498974709
+Coffee & Tea,WiFi,,,4-5,0.0341763499658236
+Coffee & Tea,Alcohol,u'none',,1-2,26.18025751072961
+Coffee & Tea,Alcohol,'none',,1-2,18.669527896995707
+Coffee & Tea,Alcohol,u'beer_and_wine',,1-2,0.4291845493562232
+Coffee & Tea,Alcohol,,,1-2,0.2145922746781116
+Coffee & Tea,Alcohol,u'none',,2-3,17.879604672057503
+Coffee & Tea,Alcohol,'none',,2-3,11.141060197663972
+Coffee & Tea,Alcohol,u'full_bar',,2-3,0.8984725965858041
+Coffee & Tea,Alcohol,u'beer_and_wine',,2-3,0.5390835579514826
+Coffee & Tea,Alcohol,'full_bar',,2-3,0.1796945193171608
+Coffee & Tea,Alcohol,u'none',,3-4,18.050749711649367
+Coffee & Tea,Alcohol,'none',,3-4,8.362168396770473
+Coffee & Tea,Alcohol,u'full_bar',,3-4,3.748558246828143
+Coffee & Tea,Alcohol,u'beer_and_wine',,3-4,2.0761245674740483
+Coffee & Tea,Alcohol,'beer_and_wine',,3-4,1.1534025374855823
+Coffee & Tea,Alcohol,'full_bar',,3-4,0.922722029988466
+Coffee & Tea,Alcohol,u'none',,4-5,24.401913875598087
+Coffee & Tea,Alcohol,'none',,4-5,9.330143540669855
+Coffee & Tea,Alcohol,u'beer_and_wine',,4-5,5.809979494190021
+Coffee & Tea,Alcohol,u'full_bar',,4-5,5.468215994531784
+Coffee & Tea,Alcohol,'beer_and_wine',,4-5,1.674641148325359
+Coffee & Tea,Alcohol,'full_bar',,4-5,0.8202323991797676
+Coffee & Tea,Alcohol,,,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,34.763948497854074
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,28.96995708154507
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,3.433476394849785
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,1-2,1.502145922746781
+Coffee & Tea,BusinessParking,,,1-2,1.502145922746781
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,1-2,1.072961373390558
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.6437768240343348
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.6437768240343348
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,{},,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.4291845493562232
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': True, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2145922746781116
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,33.513027852650495
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,29.73944294699012
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,3.5040431266846364
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,1.707097933513028
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,1.4375561545372868
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,1.3477088948787064
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.8984725965858041
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,2-3,0.8984725965858041
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.8086253369272237
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,2-3,0.8086253369272237
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.628930817610063
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,,,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.5390835579514826
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,2-3,0.449236298292902
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.449236298292902
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.2695417789757413
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': False, u'validated': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.1796945193171608
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,2-3,0.0898472596585804
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,35.870818915801614
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,19.319492502883502
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,15.282583621683967
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,4.901960784313726
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,2.1337946943483272
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.7301038062283738
+Coffee & Tea,BusinessParking,,,3-4,0.9803921568627452
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.8650519031141869
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.6920415224913495
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.6343713956170703
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.5190311418685121
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.5190311418685121
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.5190311418685121
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.461361014994233
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,3-4,0.461361014994233
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.461361014994233
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.461361014994233
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.461361014994233
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.4036908881199538
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.3460207612456747
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.3460207612456747
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.3460207612456747
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.2883506343713956
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,3-4,0.2883506343713956
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.2883506343713956
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,3-4,0.2306805074971165
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.2306805074971165
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.2306805074971165
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.2306805074971165
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2306805074971165
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.1730103806228373
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.1730103806228373
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,3-4,0.1730103806228373
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1730103806228373
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': None}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1153402537485582
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': None}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': None, u'validated': None}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': None}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': None, u'validated': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0576701268742791
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,26.896787423103213
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,24.43609022556391
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,11.03896103896104
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,10.66302118933698
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,2.563226247436774
+Coffee & Tea,BusinessParking,,,4-5,1.4354066985645932
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.4012303485987696
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,4-5,0.9227614490772384
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.888585099111415
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.8544087491455913
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.7177033492822966
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.6493506493506493
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.5468215994531784
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,4-5,0.5468215994531784
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': False}",,4-5,0.5468215994531784
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.5126452494873548
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.4442925495557075
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': False}",,4-5,0.3759398496240601
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,4-5,0.3759398496240601
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,4-5,0.3417634996582365
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.3075871496924128
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.3075871496924128
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,4-5,0.2734107997265892
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': None}",,4-5,0.2392344497607655
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.2392344497607655
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.2392344497607655
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.2050580997949419
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.2050580997949419
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.2050580997949419
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,4-5,0.2050580997949419
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': None}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': None, u'validated': False}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1708817498291182
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': False, u'validated': None}",,4-5,0.1367053998632946
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,4-5,0.1367053998632946
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1367053998632946
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': None}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': None, u'validated': None}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,4-5,0.1025290498974709
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': None, u'validated': None}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': None}",,4-5,0.0683526999316473
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': True}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': True, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': True, u'garage': False, u'street': True, u'lot': False, u'validated': True}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': None, u'validated': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': None, 'lot': False, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': None, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': True, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': True, u'lot': True, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': True, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': False, u'validated': None}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,4-5,0.0341763499658236
+Coffee & Tea,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0341763499658236

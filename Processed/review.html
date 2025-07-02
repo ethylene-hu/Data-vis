@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review表字段分析</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- 配置 Tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3B82F6', // 蓝色作为主色调
+            secondary: '#10B981', // 绿色作为辅助色
+            accent: '#8B5CF6', // 紫色作为强调色
+            neutral: '#1F2937', // 深灰色作为文本主色
+            'neutral-light': '#F3F4F6', // 浅灰色作为背景色
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .card-shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+            .hover-scale {
+                transition: transform 0.3s ease;
+            }
+            .hover-scale:hover {
+                transform: scale(1.02);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 font-sans text-neutral">
+  <!-- 顶部导航栏 -->
+  <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa fa-comments text-primary text-2xl"></i>
+        <h1 class="text-xl md:text-2xl font-bold text-neutral">Review表字段分析</h1>
+      </div>
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="#review-count" class="text-neutral hover:text-primary transition-colors">评论数量统计</a>
+        <a href="#text-frequency" class="text-neutral hover:text-primary transition-colors">文本词频分析</a>
+        <a href="#word-association" class="text-neutral hover:text-primary transition-colors">词语关联分析</a>
+      </nav>
+      <button class="md:hidden text-neutral text-xl" id="mobile-menu-button">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+    <!-- 移动端菜单 -->
+    <div class="md:hidden hidden bg-white absolute w-full shadow-lg" id="mobile-menu">
+      <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+        <a href="#review-count" class="py-2 text-neutral hover:text-primary transition-colors">评论数量统计</a>
+        <a href="#text-frequency" class="py-2 text-neutral hover:text-primary transition-colors">文本词频分析</a>
+        <a href="#word-association" class="py-2 text-neutral hover:text-primary transition-colors">词语关联分析</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="container mx-auto px-4 pt-24 pb-16">
+    <!-- 左侧导航边栏 - 桌面版 -->
+    <div
+      class="hidden lg:block fixed left-0 top-0 bottom-0 w-64 bg-white shadow-md pt-24 overflow-y-auto scrollbar-hide">
+      <nav class="px-4 py-6 space-y-4">
+        <div class="text-sm font-semibold text-gray-500 mb-2">内容导航</div>
+        <a href="#review-count" class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium">评论数量统计</a>
+        <div class="ml-4 space-y-2">
+          <a href="#cool-funny-useful" class="block py-1 text-gray-600 hover:text-primary">Cool/Funny/Useful统计</a>
+          <a href="#review-year" class="block py-1 text-gray-600 hover:text-primary">按年评论数量</a>
+        </div>
+
+        <a href="#text-frequency"
+          class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium mt-4">文本词频分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#negative-words" class="block py-1 text-gray-600 hover:text-primary">负面词统计</a>
+          <a href="#positive-words" class="block py-1 text-gray-600 hover:text-primary">正面词统计</a>
+          <a href="#top-words" class="block py-1 text-gray-600 hover:text-primary">高频词统计</a>
+        </div>
+
+        <a href="#word-association"
+          class="block py-2 px-3 rounded-md bg-primary/10 text-primary font-medium mt-4">词语关联分析</a>
+        <div class="ml-4 space-y-2">
+          <a href="#noun-cooccurrence" class="block py-1 text-gray-600 hover:text-primary">名词共现分析</a>
+          <a href="#noun-adj-cooccurrence" class="block py-1 text-gray-600 hover:text-primary">名词-形容词关联</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- 右侧内容区 -->
+    <div class="lg:ml-64">
+      <!-- 页面介绍 -->
+      <section class="mb-12 text-center">
+        <h1 class="text-[clamp(1.75rem,4vw,2.5rem)] font-bold text-neutral mb-4">Review表字段分析报告</h1>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          本报告基于Review数据集，从评论数量统计、文本词频分析和词语关联分析三个维度，对用户评论进行了深入挖掘和可视化展示，旨在揭示用户评价中的关键信息和潜在情感倾向。</p>
+      </section>
+
+      <!-- 评论数量统计 -->
+      <section id="review-count" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-bar-chart text-primary mr-2"></i>
+            评论数量统计
+          </h2>
+          <p class="text-gray-600 mb-4">数据路径：A:\1shixu\1\Processed\Review\ch-review数量统计</p>
+
+          <!-- cnt(Review.cool、funny、useful) -->
+          <div id="cool-funny-useful" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-thumbs-up text-yellow-500 mr-2"></i>
+              cnt(Review.cool、funny、useful)
+            </h3>
+            <p class="text-gray-600 mb-4">统计评论的cool、funny和useful标记数量</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入Review.cool、funny、useful数量的图表URL -->
+              <img src=".\Review\ch-review数量统计\interaction_counts_pie.png" alt="评论标记数量统计"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- Review.date.year ~ cnt（review_id） -->
+          <div id="review-year" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-calendar text-blue-500 mr-2"></i>
+              Review.date.year ~ cnt（review_id）
+            </h3>
+            <p class="text-gray-600 mb-4">按年份统计评论数量（降序前10）</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入按年份统计评论数量的图表URL -->
+              <img src=".\Review\ch-review数量统计\yearly_top10_counts.png" alt="按年份评论数量统计"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- Review.date.year ~ cnt（review_id） -->
+          <div id="review-year" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-calendar text-blue-500 mr-2"></i>
+              Review.date.year ~ cnt（review_id）
+            </h3>
+            <p class="text-gray-600 mb-4">按年份统计评论数量（降序前10）</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入按年份统计评论数量的图表URL -->
+              <img src=".\Review\ch-review数量统计\yearly_review_counts.png" alt="按年份评论数量统计"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 文本词频分析 -->
+      <section id="text-frequency" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-tags text-primary mr-2"></i>
+            文本词频分析
+          </h2>
+          <p class="text-gray-600 mb-4">数据路径：A:\1shixu\1\Processed\Review\ljy-Review-text-词频统计</p>
+
+          <!-- percent（Review.text.负面词 ⬇️10） -->
+          <div id="negative-words" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-frown-o text-red-500 mr-2"></i>
+              percent（Review.text.负面词 ⬇️10）
+            </h3>
+            <p class="text-gray-600 mb-4">出现频率最高的前10个负面词</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入负面词频率统计的图表URL -->
+              <img src=".\Review\ljy-Review-text-词频统计\词频统计\负面top10.png" alt="负面词频率统计" class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- percent（Review.text.正面词 ⬇️10） -->
+          <div id="positive-words" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-smile-o text-green-500 mr-2"></i>
+              percent（Review.text.正面词 ⬇️10）
+            </h3>
+            <p class="text-gray-600 mb-4">出现频率最高的前10个正面词</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入正面词频率统计的图表URL -->
+              <img src=".\Review\ljy-Review-text-词频统计\词频统计\正面top10.png" alt="正面词频率统计" class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- percent（Review.text ⬇️20） -->
+          <div id="top-words" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-language text-accent mr-2"></i>
+              percent（Review.text ⬇️20）
+            </h3>
+            <p class="text-gray-600 mb-4">出现频率最高的前20个词（不分正负）</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入高频词频率统计的图表URL -->
+              <img src=".\Review\ljy-Review-text-词频统计\词频统计\总体top20.png" alt="高频词频率统计" class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- 汇总词频分析结果 -->
+          <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-file-text-o text-secondary mr-2"></i>
+              汇总词频分析结果
+            </h3>
+            <p class="text-gray-600 mb-4">汇总上面的词频统计结果，生成的"最有价值词语.txt"</p>
+            <!-- 此处插入汇总词频分析结果的图片URL（如果有） -->
+            <img src=".\Review\ljy-Review-text-词频统计\词频统计\总结.png" alt="最有价值词语汇总" class="w-full h-auto rounded-lg">
+            <img src=".\Review\ljy-Review-text-词频统计\词频统计\总结-正面.png" alt="最有价值词语汇总" class="w-full h-auto rounded-lg">
+            <img src=".\Review\ljy-Review-text-词频统计\词频统计\总结-负面.png" alt="最有价值词语汇总" class="w-full h-auto rounded-lg">
+          </div>
+        </div>
+      </section>
+
+      <!-- 词语关联分析 -->
+      <section id="word-association" class="mb-16">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+          <h2 class="text-2xl font-bold text-neutral mb-4 flex items-center">
+            <i class="fa fa-link text-primary mr-2"></i>
+            词语关联分析
+          </h2>
+          <p class="text-gray-600 mb-4">
+            数据路径：A:\1shixu\1\Processed\Review\ljy-Review-text-评论词关联-采用词共现\评论词关联-采用词共现\评论词关联-采用词共现</p>
+
+          <!-- 名词词共现分布图 -->
+          <div id="noun-cooccurrence" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-object-group text-red-500 mr-2"></i>
+              perent(Review.text.n + Review.text.n共同出现 )
+            </h3>
+            <p class="text-gray-600 mb-4">名词词共现分布图 - 距离代表共现频率</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入名词词共现分布图的URL -->
+              <img src=".\Review\ljy-Review-text-评论词关联-采用词共现\评论词关联-采用词共现\评论词关联-采用词共现\名词词共现分布图-距离代表共现频率.png"
+                alt="名词词共现分布图" class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+
+          <!-- 名词-形容词混合词关联 -->
+          <div id="noun-adj-cooccurrence" class="mb-10">
+            <h3 class="text-xl font-semibold text-neutral mb-3 flex items-center">
+              <i class="fa fa-chain text-blue-500 mr-2"></i>
+              percent（Review.text.n + Review.text.adj共同出现）
+            </h3>
+            <p class="text-gray-600 mb-4">名词-形容词混合词关联图</p>
+            <div class="bg-neutral-light rounded-lg p-4 hover-scale">
+              <!-- 此处插入名词-形容词混合词关联图的URL -->
+              <img src=".\Review\ljy-Review-text-评论词关联-采用词共现\评论词关联-采用词共现\评论词关联-采用词共现\名词-形容词混合词关联.png" alt="名词-形容词混合词关联图"
+                class="w-full h-auto rounded-lg">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-neutral text-white py-8">
+    <div class="container mx-auto px-4 lg:ml-64">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <div class="flex items-center space-x-2">
+            <i class="fa fa-comments text-primary text-xl"></i>
+            <span class="font-bold text-lg">Review表字段分析</span>
+          </div>
+          <p class="text-gray-400 mt-2">数据驱动决策，分析洞察未来</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-github text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-linkedin text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white transition-colors">
+            <i class="fa fa-twitter text-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+        <p>&copy; 2025 Review Analytics. 保留所有权利。</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 返回顶部按钮 -->
+  <button id="back-to-top"
+    class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    // 移动端菜单切换
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 滚动时导航栏样式变化
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        navbar.classList.add('py-2');
+        navbar.classList.add('shadow-lg');
+      } else {
+        navbar.classList.remove('py-2');
+        navbar.classList.remove('shadow-lg');
+      }
+    });
+
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+
+          // 如果是移动端，点击后关闭菜单
+          if (!mobileMenu.classList.contains('hidden')) {
+            mobileMenu.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    // 返回顶部按钮
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.add('opacity-0', 'invisible');
+        backToTopButton.classList.remove('opacity-100', 'visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
+</html>

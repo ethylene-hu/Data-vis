@@ -1,0 +1,236 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Beauty & Spas,BusinessAcceptsCreditCards,True,,1-2,73.76425855513308
+Beauty & Spas,BusinessAcceptsCreditCards,False,,1-2,2.6615969581749046
+Beauty & Spas,BusinessAcceptsCreditCards,True,,2-3,85.77955454026271
+Beauty & Spas,BusinessAcceptsCreditCards,False,,2-3,2.96973158195317
+Beauty & Spas,BusinessAcceptsCreditCards,,,2-3,0.0571102227298686
+Beauty & Spas,BusinessAcceptsCreditCards,True,,3-4,87.97364085667215
+Beauty & Spas,BusinessAcceptsCreditCards,False,,3-4,4.420647995606809
+Beauty & Spas,BusinessAcceptsCreditCards,,,3-4,0.0274574409665019
+Beauty & Spas,BusinessAcceptsCreditCards,True,,4-5,87.52330903542973
+Beauty & Spas,BusinessAcceptsCreditCards,False,,4-5,6.933378538735378
+Beauty & Spas,BusinessAcceptsCreditCards,,,4-5,0.0508560773012374
+Beauty & Spas,BikeParking,True,,1-2,28.51711026615969
+Beauty & Spas,BikeParking,False,,1-2,19.011406844106464
+Beauty & Spas,BikeParking,True,,2-3,41.69046259280411
+Beauty & Spas,BikeParking,False,,2-3,22.786978869217588
+Beauty & Spas,BikeParking,True,,3-4,52.05930807248764
+Beauty & Spas,BikeParking,False,,3-4,19.741900054914883
+Beauty & Spas,BikeParking,,,3-4,0.1098297638660076
+Beauty & Spas,BikeParking,True,,4-5,63.7057128326835
+Beauty & Spas,BikeParking,False,,4-5,13.866757077470757
+Beauty & Spas,BikeParking,,,4-5,0.0508560773012374
+Beauty & Spas,WheelchairAccessible,True,,1-2,7.224334600760455
+Beauty & Spas,WheelchairAccessible,False,,1-2,0.7604562737642585
+Beauty & Spas,WheelchairAccessible,True,,2-3,11.136493432324386
+Beauty & Spas,WheelchairAccessible,False,,2-3,1.8846373500856652
+Beauty & Spas,WheelchairAccessible,,,2-3,0.1142204454597373
+Beauty & Spas,WheelchairAccessible,True,,3-4,21.4168039538715
+Beauty & Spas,WheelchairAccessible,False,,3-4,2.5809994508511807
+Beauty & Spas,WheelchairAccessible,,,3-4,0.0549148819330038
+Beauty & Spas,WheelchairAccessible,True,,4-5,36.26038311578233
+Beauty & Spas,WheelchairAccessible,False,,4-5,6.204441430750975
+Beauty & Spas,WheelchairAccessible,,,4-5,0.0339040515341583
+Beauty & Spas,OutdoorSeating,False,,2-3,0.3997715591090805
+Beauty & Spas,OutdoorSeating,True,,2-3,0.1713306681896059
+Beauty & Spas,OutdoorSeating,False,,3-4,0.9610104338275672
+Beauty & Spas,OutdoorSeating,True,,3-4,0.4118616144975288
+Beauty & Spas,OutdoorSeating,False,,4-5,1.0510255975589082
+Beauty & Spas,OutdoorSeating,True,,4-5,0.1864722834378708
+Beauty & Spas,OutdoorSeating,,,4-5,0.0339040515341583
+Beauty & Spas,HasTV,True,,2-3,0.2855511136493432
+Beauty & Spas,HasTV,False,,2-3,0.1713306681896059
+Beauty & Spas,HasTV,False,,3-4,0.9060955518945634
+Beauty & Spas,HasTV,True,,3-4,0.4118616144975288
+Beauty & Spas,HasTV,False,,4-5,0.9662654687235124
+Beauty & Spas,HasTV,True,,4-5,0.2712324122732666
+Beauty & Spas,WiFi,u'free',,1-2,3.4220532319391634
+Beauty & Spas,WiFi,u'no',,1-2,2.281368821292776
+Beauty & Spas,WiFi,u'free',,2-3,7.081667618503712
+Beauty & Spas,WiFi,u'no',,2-3,2.3986293546544832
+Beauty & Spas,WiFi,u'paid',,2-3,0.1142204454597373
+Beauty & Spas,WiFi,,,2-3,0.0571102227298686
+Beauty & Spas,WiFi,'no',,2-3,0.0571102227298686
+Beauty & Spas,WiFi,u'free',,3-4,16.776496430532674
+Beauty & Spas,WiFi,u'no',,3-4,4.036243822075782
+Beauty & Spas,WiFi,u'paid',,3-4,0.3844041735310269
+Beauty & Spas,WiFi,'free',,3-4,0.2745744096650192
+Beauty & Spas,WiFi,'no',,3-4,0.0823723228995057
+Beauty & Spas,WiFi,'paid',,3-4,0.0274574409665019
+Beauty & Spas,WiFi,u'free',,4-5,33.70062722495339
+Beauty & Spas,WiFi,u'no',,4-5,5.88235294117647
+Beauty & Spas,WiFi,u'paid',,4-5,0.6950330564502458
+Beauty & Spas,WiFi,'free',,4-5,0.3559925411086625
+Beauty & Spas,WiFi,'no',,4-5,0.0508560773012374
+Beauty & Spas,WiFi,,,4-5,0.0169520257670791
+Beauty & Spas,Alcohol,u'full_bar',,2-3,0.1713306681896059
+Beauty & Spas,Alcohol,'none',,2-3,0.1142204454597373
+Beauty & Spas,Alcohol,'full_bar',,2-3,0.0571102227298686
+Beauty & Spas,Alcohol,u'full_bar',,3-4,0.3294892915980231
+Beauty & Spas,Alcohol,u'beer_and_wine',,3-4,0.1647446457990115
+Beauty & Spas,Alcohol,u'none',,3-4,0.1098297638660076
+Beauty & Spas,Alcohol,'beer_and_wine',,3-4,0.0823723228995057
+Beauty & Spas,Alcohol,'none',,3-4,0.0549148819330038
+Beauty & Spas,Alcohol,'full_bar',,3-4,0.0274574409665019
+Beauty & Spas,Alcohol,u'full_bar',,4-5,0.1864722834378708
+Beauty & Spas,Alcohol,u'none',,4-5,0.1695202576707916
+Beauty & Spas,Alcohol,'none',,4-5,0.0508560773012374
+Beauty & Spas,Alcohol,u'beer_and_wine',,4-5,0.0508560773012374
+Beauty & Spas,Alcohol,'full_bar',,4-5,0.0169520257670791
+Beauty & Spas,Alcohol,'beer_and_wine',,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,45.62737642585552
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,15.96958174904943
+Beauty & Spas,BusinessParking,,,1-2,6.4638783269961975
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,4.562737642585551
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,1.9011406844106464
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,1.1406844106463878
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.7604562737642585
+Beauty & Spas,BusinessParking,{'garage': False},,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,1-2,0.3802281368821292
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,43.28954882924043
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,25.92804111936037
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,5.596801827527127
+Beauty & Spas,BusinessParking,,,2-3,4.511707595659623
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,2.11307824100514
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,1.484865790976585
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,1.1993146773272416
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.6282124500285551
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.3426613363792118
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,2-3,0.2855511136493432
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.2284408909194746
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,2-3,0.2284408909194746
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.1713306681896059
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.1713306681896059
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,2-3,0.1142204454597373
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,{'valet': False},,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': False, 'validated': None, 'lot': True, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,{},,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{u'valet': True, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,2-3,0.0571102227298686
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,36.46348160351455
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,31.191652937946184
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,8.649093904448106
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,3.926414058209775
+Beauty & Spas,BusinessParking,,,3-4,3.487095002745745
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,1.455244371224602
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,1.1532125205930808
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.9884678747940692
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.4393190554640307
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.2745744096650192
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.2471169686985173
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.2196595277320153
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1372872048325096
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.1098297638660076
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.1098297638660076
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.1098297638660076
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.1098297638660076
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.0823723228995057
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0823723228995057
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0823723228995057
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0823723228995057
+Beauty & Spas,BusinessParking,{'garage': False},,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0549148819330038
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': None, 'validated': None, 'lot': None, 'valet': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': True, u'garage': True, u'street': True, u'lot': True, u'validated': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': False, 'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': True, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': False, u'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,3-4,0.0274574409665019
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,33.00559416850314
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,24.733005594168503
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,15.155111035768776
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,7.594507543651466
+Beauty & Spas,BusinessParking,,,4-5,2.8987964061705376
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.9664349889811832
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.0001695202576708
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.8306492625868791
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.3390405153415833
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.3220884895745041
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.3220884895745041
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.2881844380403458
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.2542803865061874
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.2373283607391083
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.2203763349720291
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1864722834378708
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1864722834378708
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.1864722834378708
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.1525682319037125
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.1525682319037125
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.1017121546024749
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.1017121546024749
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1017121546024749
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.1017121546024749
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0847601288353958
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0678081030683166
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0678081030683166
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0678081030683166
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0678081030683166
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0508560773012374
+Beauty & Spas,BusinessParking,{'garage': False},,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': True}",,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0339040515341583
+Beauty & Spas,BusinessParking,"{'valet': False, 'garage': False, 'street': True, 'lot': False, 'validated': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': True}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': True}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': True, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,{},,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': None, 'street': None, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': True, u'valet': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0169520257670791
+Beauty & Spas,BusinessParking,{'valet': False},,4-5,0.0169520257670791

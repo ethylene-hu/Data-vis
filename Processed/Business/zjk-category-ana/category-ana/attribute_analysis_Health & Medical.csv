@@ -1,0 +1,183 @@
+Category,Attribute,Value,Overall %,Star Range,%
+Health & Medical,BusinessAcceptsCreditCards,True,,1-2,59.43204868154158
+Health & Medical,BusinessAcceptsCreditCards,False,,1-2,1.8255578093306288
+Health & Medical,BusinessAcceptsCreditCards,True,,2-3,72.67326732673267
+Health & Medical,BusinessAcceptsCreditCards,False,,2-3,1.9306930693069304
+Health & Medical,BusinessAcceptsCreditCards,,,2-3,0.2475247524752475
+Health & Medical,BusinessAcceptsCreditCards,True,,3-4,77.51589973812196
+Health & Medical,BusinessAcceptsCreditCards,False,,3-4,3.1425364758698096
+Health & Medical,BusinessAcceptsCreditCards,,,3-4,0.1122334455667789
+Health & Medical,BusinessAcceptsCreditCards,True,,4-5,83.18009734991888
+Health & Medical,BusinessAcceptsCreditCards,False,,4-5,2.298539751216874
+Health & Medical,BusinessAcceptsCreditCards,,,4-5,0.0811249323958896
+Health & Medical,BikeParking,True,,1-2,9.533468559837727
+Health & Medical,BikeParking,False,,1-2,4.86815415821501
+Health & Medical,BikeParking,True,,2-3,14.05940594059406
+Health & Medical,BikeParking,False,,2-3,6.485148514851486
+Health & Medical,BikeParking,,,2-3,0.0495049504950495
+Health & Medical,BikeParking,True,,3-4,19.266741488963717
+Health & Medical,BikeParking,False,,3-4,5.910961466517022
+Health & Medical,BikeParking,,,3-4,0.0374111485222596
+Health & Medical,BikeParking,True,,4-5,25.878853434288807
+Health & Medical,BikeParking,False,,4-5,4.678204434829638
+Health & Medical,BikeParking,,,4-5,0.1081665765278529
+Health & Medical,WheelchairAccessible,True,,1-2,11.359026369168356
+Health & Medical,WheelchairAccessible,False,,1-2,0.2028397565922921
+Health & Medical,WheelchairAccessible,True,,2-3,11.287128712871288
+Health & Medical,WheelchairAccessible,False,,2-3,0.396039603960396
+Health & Medical,WheelchairAccessible,True,,3-4,12.34567901234568
+Health & Medical,WheelchairAccessible,False,,3-4,0.710811821922933
+Health & Medical,WheelchairAccessible,,,3-4,0.0374111485222596
+Health & Medical,WheelchairAccessible,True,,4-5,18.334234721471063
+Health & Medical,WheelchairAccessible,False,,4-5,1.946998377501352
+Health & Medical,WheelchairAccessible,,,4-5,0.0270416441319632
+Health & Medical,OutdoorSeating,False,,1-2,0.4056795131845842
+Health & Medical,OutdoorSeating,False,,2-3,0.099009900990099
+Health & Medical,OutdoorSeating,True,,2-3,0.0495049504950495
+Health & Medical,OutdoorSeating,False,,3-4,0.299289188178077
+Health & Medical,OutdoorSeating,True,,3-4,0.1870557426112981
+Health & Medical,OutdoorSeating,,,3-4,0.0374111485222596
+Health & Medical,OutdoorSeating,True,,4-5,0.5137912385073012
+Health & Medical,OutdoorSeating,False,,4-5,0.2704164413196322
+Health & Medical,HasTV,False,,1-2,0.2028397565922921
+Health & Medical,HasTV,True,,2-3,0.099009900990099
+Health & Medical,HasTV,False,,3-4,0.299289188178077
+Health & Medical,HasTV,True,,3-4,0.1496445940890385
+Health & Medical,HasTV,False,,4-5,0.3244997295835586
+Health & Medical,HasTV,True,,4-5,0.2974580854515954
+Health & Medical,WiFi,u'free',,1-2,5.070993914807302
+Health & Medical,WiFi,u'no',,1-2,3.2454361054766734
+Health & Medical,WiFi,'free',,1-2,0.8113590263691683
+Health & Medical,WiFi,'no',,1-2,0.4056795131845842
+Health & Medical,WiFi,u'free',,2-3,8.663366336633663
+Health & Medical,WiFi,u'no',,2-3,2.920792079207921
+Health & Medical,WiFi,'free',,2-3,0.3465346534653465
+Health & Medical,WiFi,'no',,2-3,0.297029702970297
+Health & Medical,WiFi,u'paid',,2-3,0.297029702970297
+Health & Medical,WiFi,u'free',,3-4,14.964459408903856
+Health & Medical,WiFi,u'no',,3-4,4.526748971193416
+Health & Medical,WiFi,'free',,3-4,0.5237560793116348
+Health & Medical,WiFi,u'paid',,3-4,0.2618780396558174
+Health & Medical,WiFi,'no',,3-4,0.0374111485222596
+Health & Medical,WiFi,u'free',,4-5,26.60897782585181
+Health & Medical,WiFi,u'no',,4-5,7.13899405083829
+Health & Medical,WiFi,u'paid',,4-5,0.6219578150351541
+Health & Medical,WiFi,'free',,4-5,0.5137912385073012
+Health & Medical,WiFi,'no',,4-5,0.0270416441319632
+Health & Medical,Alcohol,u'none',,1-2,0.2028397565922921
+Health & Medical,Alcohol,u'none',,2-3,0.0495049504950495
+Health & Medical,Alcohol,u'none',,3-4,0.3741114852225963
+Health & Medical,Alcohol,'full_bar',,3-4,0.1122334455667789
+Health & Medical,Alcohol,'beer_and_wine',,3-4,0.0374111485222596
+Health & Medical,Alcohol,u'full_bar',,3-4,0.0374111485222596
+Health & Medical,Alcohol,u'beer_and_wine',,3-4,0.0374111485222596
+Health & Medical,Alcohol,u'none',,4-5,0.3515413737155219
+Health & Medical,Alcohol,u'beer_and_wine',,4-5,0.1081665765278529
+Health & Medical,Alcohol,'none',,4-5,0.0811249323958896
+Health & Medical,Alcohol,'beer_and_wine',,4-5,0.0540832882639264
+Health & Medical,Alcohol,u'full_bar',,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,10.344827586206897
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,1-2,5.679513184584178
+Health & Medical,BusinessParking,,,1-2,1.0141987829614605
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,1-2,0.6085192697768762
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.4056795131845842
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': None, u'validated': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,1-2,0.2028397565922921
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,12.07920792079208
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,9.108910891089108
+Health & Medical,BusinessParking,,,2-3,1.3861386138613865
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.891089108910891
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.7920792079207921
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.3465346534653465
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,2-3,0.198019801980198
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,2-3,0.198019801980198
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,2-3,0.1485148514851485
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,2-3,0.1485148514851485
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.1485148514851485
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.099009900990099
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,2-3,0.099009900990099
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,2-3,0.099009900990099
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,2-3,0.099009900990099
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': None}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': True, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': None}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': False, u'lot': None, u'validated': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,2-3,0.0495049504950495
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,15.30115974560419
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,10.2880658436214
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,2.2072577628133185
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,1.6086793864571642
+Health & Medical,BusinessParking,,,3-4,1.2345679012345678
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.4489337822671156
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,3-4,0.299289188178077
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,3-4,0.1870557426112981
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1870557426112981
+Health & Medical,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,3-4,0.1122334455667789
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.1122334455667789
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': None}",,3-4,0.0748222970445192
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': None}",,3-4,0.0748222970445192
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,3-4,0.0748222970445192
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0748222970445192
+Health & Medical,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': True, 'valet': False}",,3-4,0.0748222970445192
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,{'garage': False},,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': None, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': False, 'street': None, 'validated': False, 'lot': None, 'valet': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': None, 'street': None, 'validated': None, 'lot': True, 'valet': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': True, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': True, u'street': None, u'lot': False, u'validated': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': None}",,3-4,0.0374111485222596
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,16.306111411573823
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,7.517577068685775
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,3.839913466738778
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,3.217955651703624
+Health & Medical,BusinessParking,,,4-5,1.59545700378583
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': False}",,4-5,1.216873985938345
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.4056246619794483
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': False}",,4-5,0.2704164413196322
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1892915089237425
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': False}",,4-5,0.1622498647917793
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.1622498647917793
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.1081665765278529
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': True}",,4-5,0.0811249323958896
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0811249323958896
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': False, 'valet': True}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': False, u'lot': False, u'validated': False}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0540832882639264
+Health & Medical,BusinessParking,"{'garage': False, 'street': False, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'valet': False, 'garage': False, 'street': False, 'lot': True, 'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': False, 'lot': False, 'valet': True}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': True, u'street': True, u'lot': False, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'garage': True, 'street': False, 'validated': False, 'lot': True, 'valet': True}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': True, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': None, u'street': None, u'lot': False, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': True, u'garage': False, u'street': False, u'lot': True, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': True, u'lot': True, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'garage': True, 'street': True, 'validated': True, 'lot': True, 'valet': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'valet': False, u'garage': False, u'street': None, u'lot': None, u'validated': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{'garage': False, 'street': True, 'validated': True, 'lot': False, 'valet': False}",,4-5,0.0270416441319632
+Health & Medical,BusinessParking,"{u'garage': False, u'street': False, u'validated': False, u'lot': True, u'valet': False}",,4-5,0.0270416441319632
