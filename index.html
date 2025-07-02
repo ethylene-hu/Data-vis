@@ -1,1 +1,319 @@
-welcome to the world
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据分析平台</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- 配置Tailwind自定义颜色和字体 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6', // 蓝色主色调
+                        secondary: '#10B981', // 绿色辅助色
+                        accent: '#8B5CF6', // 紫色强调色
+                        neutral: '#1F2937', // 深灰色文本
+                        'neutral-light': '#F9FAFB', // 浅灰色背景
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .card-shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-neutral">
+    <!-- 顶部导航栏 -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa fa-database text-primary text-2xl"></i>
+                <h1 class="text-xl md:text-2xl font-bold text-neutral">数据分析平台</h1>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#business-analysis" class="text-neutral hover:text-primary transition-colors">Business分析</a>
+                <a href="#review-analysis" class="text-neutral hover:text-primary transition-colors">Review分析</a>
+                <a href="#user-analysis" class="text-neutral hover:text-primary transition-colors">User分析</a>
+            </nav>
+            <button class="md:hidden text-neutral text-xl" id="mobile-menu-button">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <!-- 移动端菜单 -->
+        <div class="md:hidden hidden bg-white absolute w-full shadow-lg" id="mobile-menu">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
+                <a href="#business-analysis" class="py-2 text-neutral hover:text-primary transition-colors">Business分析</a>
+                <a href="#review-analysis" class="py-2 text-neutral hover:text-primary transition-colors">Review分析</a>
+                <a href="#user-analysis" class="py-2 text-neutral hover:text-primary transition-colors">User分析</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="container mx-auto px-4 pt-24 pb-16">
+        <!-- 页面介绍 -->
+        <section class="mb-12 text-center">
+            <h1 class="text-[clamp(1.75rem,4vw,2.5rem)] font-bold text-neutral mb-4">数据分析平台</h1>
+            <p class="text-gray-600 max-w-3xl mx-auto text-balance">
+                本平台提供对Business、Review和User数据集的详细分析，通过可视化图表和深入解读，帮助您理解数据背后的业务洞察和用户行为模式。
+            </p>
+        </section>
+
+        <!-- 数据分析卡片 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <!-- Business分析卡片 -->
+            <div id="business-analysis" class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                <div class="h-48 bg-primary/10 flex items-center justify-center">
+                    <i class="fa fa-table text-primary text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-neutral mb-3">Business表分析</h2>
+                    <p class="text-gray-600 mb-4">
+                        对Business数据集的字段进行深入分析，包括名称、城市、分类等维度与评分的关系，以及数据分布和联合分析。
+                    </p>
+                    <a href="Processed/business.html" class="inline-flex items-center text-primary font-medium hover:underline">
+                        查看分析 <i class="fa fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Review分析卡片 -->
+            <div id="review-analysis" class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                <div class="h-48 bg-secondary/10 flex items-center justify-center">
+                    <i class="fa fa-comments text-secondary text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-neutral mb-3">Review表分析</h2>
+                    <p class="text-gray-600 mb-4">
+                        对用户评论数据进行挖掘，包括评论数量统计、文本词频分析和词语关联分析，揭示用户评价中的情感倾向和关键信息。
+                    </p>
+                    <a href="Processed/review.html" class="inline-flex items-center text-secondary font-medium hover:underline">
+                        查看分析 <i class="fa fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- User分析卡片 -->
+            <div id="user-analysis" class="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
+                <div class="h-48 bg-accent/10 flex items-center justify-center">
+                    <i class="fa fa-users text-accent text-5xl"></i>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-neutral mb-3">User表分析</h2>
+                    <p class="text-gray-600 mb-4">
+                        分析用户评论行为数据，包括活跃用户与沉默用户的分布，以及各年份用户类型的趋势变化，理解用户参与度模式。
+                    </p>
+                    <a href="Processed/user.html" class="inline-flex items-center text-accent font-medium hover:underline">
+                        查看分析 <i class="fa fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 数据分析概览 -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-neutral mb-8 text-center">数据分析概览</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <!-- 数据来源 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <h3 class="text-xl font-semibold text-neutral mb-4 flex items-center">
+                        <i class="fa fa-folder-open text-primary mr-2"></i>
+                        数据来源
+                    </h3>
+                    <p class="text-gray-600">
+                        所有分析基于存储在 <code class="bg-neutral-light px-2 py-1 rounded text-sm">Processed</code> 文件夹中的数据集，包括：
+                    </p>
+                    <ul class="mt-4 space-y-2 pl-5 list-disc text-gray-600">
+                        <li>Business表数据 - 商家基本信息和评分</li>
+                        <li>Review表数据 - 用户评论内容和反馈</li>
+                        <li>User表数据 - 用户信息和评论行为</li>
+                    </ul>
+                </div>
+                
+                <!-- 分析方法 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <h3 class="text-xl font-semibold text-neutral mb-4 flex items-center">
+                        <i class="fa fa-magnifying-glass text-primary mr-2"></i>
+                        分析方法
+                    </h3>
+                    <p class="text-gray-600">
+                        采用多种数据分析方法和可视化技术：
+                    </p>
+                    <ul class="mt-4 space-y-2 pl-5 list-disc text-gray-600">
+                        <li>单表字段统计分析与可视化</li>
+                        <li>文本挖掘与词频分析</li>
+                        <li>数据联合分析与关联规则挖掘</li>
+                        <li>时间序列趋势分析</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 数据价值 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                <h3 class="text-xl font-semibold text-neutral mb-4 flex items-center">
+                    <i class="fa fa-line-chart text-primary mr-2"></i>
+                    数据价值
+                </h3>
+                <p class="text-gray-600">
+                    这些分析能够帮助您：
+                </p>
+                <ul class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-star text-yellow-500 text-2xl mb-2"></i>
+                        <p class="font-medium">发现高评分商家特征</p>
+                    </li>
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-comment text-blue-500 text-2xl mb-2"></i>
+                        <p class="font-medium">理解用户评论情感倾向</p>
+                    </li>
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-users text-green-500 text-2xl mb-2"></i>
+                        <p class="font-medium">识别活跃用户行为模式</p>
+                    </li>
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-map-marker text-red-500 text-2xl mb-2"></i>
+                        <p class="font-medium">分析区域业务表现差异</p>
+                    </li>
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-calendar text-purple-500 text-2xl mb-2"></i>
+                        <p class="font-medium">跟踪业务发展时间趋势</p>
+                    </li>
+                    <li class="p-3 bg-neutral-light rounded-lg">
+                        <i class="fa fa-lightbulb-o text-orange-500 text-2xl mb-2"></i>
+                        <p class="font-medium">获取业务优化决策依据</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-neutral text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <i class="fa fa-database text-primary text-xl"></i>
+                        <span class="font-bold text-lg">数据分析平台</span>
+                    </div>
+                    <p class="text-gray-400 mt-2">数据驱动决策，洞察业务未来</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-twitter text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 数据分析平台. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // 移动端菜单切换
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // 滚动时导航栏样式变化
+        const navbar = document.getElementById('navbar');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add('py-2');
+                navbar.classList.add('shadow-lg');
+            } else {
+                navbar.classList.remove('py-2');
+                navbar.classList.remove('shadow-lg');
+            }
+        });
+        
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // 如果是移动端，点击后关闭菜单
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+        
+        // 返回顶部按钮
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.add('opacity-0', 'invisible');
+                backToTopButton.classList.remove('opacity-100', 'visible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
