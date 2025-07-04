@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelp用户聚类分析仪表盘</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#64748b',
+                        accent: '#0ea5e9',
+                        success: '#10b981',
+                        warning: '#f59e0b',
+                        danger: '#ef4444',
+                        dark: '#1e293b',
+                        light: '#f8fafc'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                        'card-hover': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+                    }
+                },
+            }
+        }
+    </script>
+    
+    <!-- 自定义工具类 -->
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .transition-transform-opacity {
+                transition-property: transform, opacity;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 300ms;
+            }
+        }
+    </style>
+    
+    <style>
+        /* 平滑滚动 */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* 图片卡片样式 */
+        .image-card {
+            transition: all 0.3s ease;
+        }
+        
+        .image-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* 分析内容样式 */
+        .analysis-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+        
+        .analysis-content.active {
+            max-height: 500px;
+        }
+        
+        /* 展开/收起按钮 */
+        .toggle-btn {
+            transition: all 0.3s ease;
+        }
+        
+        .toggle-btn:hover {
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter text-gray-800 min-h-screen flex flex-col">
+    <!-- 导航栏 -->
+    <nav id="navbar" class="fixed w-full bg-white/90 backdrop-blur-sm z-50 transition-all duration-300 shadow-md">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center">
+                        <i class="fa fa-bar-chart text-primary text-2xl mr-2"></i>
+                        <span class="font-bold text-xl text-dark">Yelp用户分析</span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#overview" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">概览</a>
+                    <a href="#clusters" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">聚类分析</a>
+                    <a href="#visualizations" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">图表分析</a>
+                    <a href="#business-value" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">业务价值</a>
+                    <a href="#summary" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">总结分析</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-primary">
+                        <i class="fa fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 移动端菜单 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#overview" class="text-gray-600 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">概览</a>
+                <a href="#clusters" class="text-gray-600 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">聚类分析</a>
+                <a href="#visualizations" class="text-gray-600 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">图表分析</a>
+                <a href="#business-value" class="text-gray-600 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">业务价值</a>
+                <a href="#summary" class="text-gray-600 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">总结分析</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-gray-900 leading-tight mb-4 text-shadow">
+                    Yelp用户聚类分析
+                </h1>
+                <p class="text-[clamp(1rem,2vw,1.25rem)] text-gray-600 max-w-3xl mx-auto mb-8">
+                    通过数据可视化与聚类算法揭示用户行为模式，助力精准运营决策
+                </p>
+                <div class="inline-flex rounded-md shadow">
+                    <a href="#overview" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors duration-200">
+                        <i class="fa fa-arrow-down mr-2"></i>
+                        开始探索
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="flex-grow">
+        <!-- 概览部分 -->
+        <section id="overview" class="py-12 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">分析概览</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        基于Yelp用户数据的聚类分析，通过5大维度特征将用户划分为5个典型群体，揭示不同用户群体的行为特征和偏好
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+                    <!-- 数据卡片1 -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="p-3 bg-blue-100 rounded-full mr-4">
+                                <i class="fa fa-users text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium text-gray-500">总用户数</h3>
+                                <p class="text-2xl font-bold text-gray-900">1,987,897</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 数据卡片2 -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="p-3 bg-green-100 rounded-full mr-4">
+                                <i class="fa fa-object-group text-success text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium text-gray-500">聚类数量</h3>
+                                <p class="text-2xl font-bold text-gray-900">5</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 数据卡片3 -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="p-3 bg-purple-100 rounded-full mr-4">
+                                <i class="fa fa-star text-purple-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium text-gray-500">平均评分</h3>
+                                <p class="text-2xl font-bold text-gray-900">3.73</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 数据卡片4 -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="p-3 bg-yellow-100 rounded-full mr-4">
+                                <i class="fa fa-comments text-warning text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium text-gray-500">平均评论数</h3>
+                                <p class="text-2xl font-bold text-gray-900">24.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 数据卡片5 -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center">
+                            <div class="p-3 bg-red-100 rounded-full mr-4">
+                                <i class="fa fa-trophy text-danger text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-medium text-gray-500">精英用户比例</h3>
+                                <p class="text-2xl font-bold text-gray-900">12.3%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 聚类分布饼图 -->
+                <div class="bg-white rounded-xl shadow-card p-6 md:p-8 border border-gray-100 mb-12">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fa fa-pie-chart text-primary mr-2"></i>
+                        用户聚类分布
+                    </h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                        <div class="lg:col-span-1 flex flex-col justify-center">
+                            <div class="space-y-4">
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 rounded-full bg-blue-500 mr-3"></div>
+                                    <span class="font-medium">cluster 2（高互动活跃用户）</span>
+                                    <span class="ml-auto font-bold">0.008%</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 rounded-full bg-green-500 mr-3"></div>
+                                    <span class="font-medium">cluster 1（孤立新用户）</span>
+                                    <span class="ml-auto font-bold">0.00005%</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 rounded-full bg-yellow-500 mr-3"></div>
+                                    <span class="font-medium">cluster 0（普通用户）</span>
+                                    <span class="ml-auto font-bold">2.67%</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 rounded-full bg-purple-500 mr-3"></div>
+                                    <span class="font-medium">cluster 4（中等互动用户）</span>
+                                    <span class="ml-auto font-bold">0.049%</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 rounded-full bg-red-500 mr-3"></div>
+                                    <span class="font-medium">cluster 3（低活跃度用户）</span>
+                                    <span class="ml-auto font-bold">97.28%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-2">
+                            <div class="h-64 md:h-80">
+                                <img src="cluster_distribution.png" alt="用户聚类分布图" class="w-full h-full object-contain">
+                                <div class="mt-2 text-center text-sm text-gray-500">用户聚类分布可视化图（修正后数据）</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 聚类分析部分 -->
+        <section id="clusters" class="py-12 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">聚类特征分析</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        通过热力图与详细特征对比，深入理解各用户群体的行为模式差异
+                    </p>
+                </div>
+                
+                <!-- 热力图 -->
+                <div class="bg-white rounded-xl shadow-card p-6 md:p-8 border border-gray-100 mb-12">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fa fa-fire text-warning mr-2"></i>
+                        用户聚类特征热力图
+                    </h3>
+                    <div class="h-80 md:h-96">
+                        <img src="cluster_heatmap.png" alt="用户聚类特征热力图" class="w-full h-full object-contain">
+                        <div class="mt-2 text-center text-sm text-gray-500">用户聚类特征热力图，展示各群体在不同维度的表现</div>
+                    </div>
+                    <div class="mt-6 analysis-content" id="heatmap-analysis">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">特征维度说明</h4>
+                        <p class="text-gray-600 mb-2">• 评论数：用户发表的评论总量</p>
+                        <p class="text-gray-600 mb-2">• 平均星级：用户给出的平均评分（1-5分）</p>
+                        <p class="text-gray-600 mb-2">• 互动性：用户获得的有用(useful)+有趣(funny)+酷(cool)评价总和</p>
+                        <p class="text-gray-600 mb-2">• 粉丝数：关注该用户的其他用户数量</p>
+                        <p class="text-gray-600 mb-4">• 精英年数：用户成为Yelp精英用户的年限</p>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-3">关键发现</h4>
+                        <p class="text-gray-600 mb-2">• <span class="font-medium text-blue-700">cluster 2（深蓝色）</span>：互动性（136.56）和评论数（61.69）最高，代表“高互动活跃用户”（仅16个样本，极端特征群体）</p>
+                        <p class="text-gray-600 mb-2">• <span class="font-medium text-green-700">cluster 1</span>：粉丝数和精英年数为0，可能是“孤立新用户”（仅1个样本，数据异常值）</p>
+                        <p class="text-gray-600 mb-2">• <span class="font-medium text-yellow-700">cluster 0</span>：各项特征值中等（评论数23.17，互动性69.04），对应“普通评论者”（52999样本，占比2.67%）</p>
+                        <p class="text-gray-600 mb-2">• <span class="font-medium text-purple-700">cluster 4</span>：互动性（85.06）和粉丝数（1.51）中等，评论数25.45，为“中等互动用户”（976样本，占比0.05%）</p>
+                        <p class="text-gray-600 mb-2">• <span class="font-medium text-red-700">cluster 3（红色）</span>：评论数（23.40）和互动性（83.44）中等，但样本量极多（193万+，占比97.28%），需核查数据采集或聚类参数</p>
+                    </div>
+                    <button class="toggle-btn text-primary text-sm flex items-center" onclick="toggleAnalysis('heatmap-analysis')">
+                        <i class="fa fa-chevron-down mr-1"></i> 查看详细分析
+                    </button>
+                </div>
+                
+                <!-- 聚类详情 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- 聚类1: cluster 2（高互动活跃用户） -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-lg font-bold text-gray-900">高互动活跃用户（cluster 2）</h4>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">0.008%</span>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评论数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">61.69</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评分:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 65%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">3.7</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">互动指数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 98%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">136.56</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">粉丝数量:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">2.1</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-32 text-sm text-gray-500">精英年数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 35%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.8</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            这组用户活跃度极高，评论数和互动性显著高于其他群体，但样本量极少（仅16人），可能是平台的超级活跃核心用户。
+                        </p>
+                    </div>
+                    
+                    <!-- 聚类2: cluster 1（孤立新用户） -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-lg font-bold text-gray-900">孤立新用户（cluster 1）</h4>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">0.00005%</span>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评论数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-green-600 h-2.5 rounded-full" style="width: 5%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">1.2</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评分:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-green-600 h-2.5 rounded-full" style="width: 40%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">2.2</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">互动指数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-green-600 h-2.5 rounded-full" style="width: 3%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.5</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">粉丝数量:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-green-600 h-2.5 rounded-full" style="width: 0%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-32 text-sm text-gray-500">精英年数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-green-600 h-2.5 rounded-full" style="width: 0%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            这组用户仅1个样本，所有互动指标接近0，可能是测试账号或未活跃的新用户，建议核查数据有效性。
+                        </p>
+                    </div>
+                    
+                    <!-- 聚类3: cluster 0（普通用户） -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-lg font-bold text-gray-900">普通用户（cluster 0）</h4>
+                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">2.67%</span>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评论数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 32%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">23.17</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评分:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 55%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">3.2</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">互动指数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 48%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">69.04</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">粉丝数量:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 22%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.7</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-32 text-sm text-gray-500">精英年数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-yellow-600 h-2.5 rounded-full" style="width: 10%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.3</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            这组用户代表平台的普通活跃用户，各项指标表现中等，是平台的基础用户群体（52999人）。
+                        </p>
+                    </div>
+                    
+                    <!-- 聚类4: cluster 4（中等互动用户） -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-lg font-bold text-gray-900">中等互动用户（cluster 4）</h4>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">0.049%</span>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评论数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-purple-600 h-2.5 rounded-full" style="width: 35%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">25.45</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评分:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-purple-600 h-2.5 rounded-full" style="width: 60%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">3.5</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">互动指数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-purple-600 h-2.5 rounded-full" style="width: 60%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">85.06</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">粉丝数量:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-purple-600 h-2.5 rounded-full" style="width: 25%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">1.51</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-32 text-sm text-gray-500">精英年数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-purple-600 h-2.5 rounded-full" style="width: 15%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.5</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            这组用户互动性和评论数中等（976人），有一定提升潜力，可通过运营活动转化为核心用户。
+                        </p>
+                    </div>
+                    
+                    <!-- 聚类5: cluster 3（低活跃度用户） -->
+                    <div class="bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-lg font-bold text-gray-900">低活跃度用户（cluster 3）</h4>
+                            <span class="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">97.28%</span>
+                        </div>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评论数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-red-600 h-2.5 rounded-full" style="width: 32%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">23.40</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">平均评分:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">2.8</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">互动指数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-red-600 h-2.5 rounded-full" style="width: 58%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">83.44</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <span class="w-32 text-sm text-gray-500">粉丝数量:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-red-600 h-2.5 rounded-full" style="width: 18%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.6</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-32 text-sm text-gray-500">精英年数:</span>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="bg-red-600 h-2.5 rounded-full" style="width: 5%"></div>
+                                </div>
+                                <span class="ml-2 text-sm font-medium">0.2</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600">
+                            这组用户占比极高（193万+），但活跃度和评分偏低，需重点分析是否存在数据采集偏差或算法参数问题。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 图表分析部分 -->
+        <section id="visualizations" class="py-12 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">图表分析与解读</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        通过多维度可视化图表，深入理解用户聚类的特征分布与算法可靠性
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <!-- 评论数与评分分布 -->
+                    <div class="image-card bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                                <i class="fa fa-bar-chart text-primary mr-2"></i>
+                                评论数与评分分布
+                            </h3>
+                            <span class="text-sm text-gray-500">cluster_distribution.png</span>
+                        </div>
+                        <div class="h-80">
+                            <img src="cluster_distribution.png" alt="评论数与评分分布图" class="w-full h-full object-contain">
+                            <div class="mt-2 text-center text-sm text-gray-500">用户评论数与评分分布图，展示各群体在这两个维度的分布特征</div>
+                        </div>
+                        <div class="mt-6 analysis-content" id="distribution-analysis">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-3">图表解读</h4>
+                            <p class="text-gray-600 mb-4">
+                                该图表分为上下两部分，分别展示用户评论数与评分的分布特征：
+                            </p>
+                            <div class="space-y-3">
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">评论数分布（上半部分）</h5>
+                                    <p class="text-gray-600">
+                                        • 横轴为log(评论数+1)，处理长尾分布以增强可视化效果<br>
+                                        • 红色（cluster 3）在低评论数（log值≈0）处密度极高，与该群体97.28%的占比吻合<br>
+                                        • 蓝色（cluster 2）在高评论数区域形成尖峰，但样本量仅0.008%<br>
+                                        • 黄色（cluster 0）在中等评论数区域均匀分布，符合普通用户特征
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">评分分布（下半部分）</h5>
+                                    <p class="text-gray-600">
+                                        • 红色（cluster 3）在低评分（≈2.8）处形成主峰，反映其低评分倾向<br>
+                                        • 紫色（cluster 4）在中等评分（≈3.5）处集中，与群体特征一致<br>
+                                        • 蓝色（cluster 2）在高评分区域有小峰值，体现核心用户的积极评价倾向
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="toggle-btn text-primary text-sm flex items-center mt-2" onclick="toggleAnalysis('distribution-analysis')">
+                            <i class="fa fa-chevron-down mr-1"></i> 查看详细分析
+                        </button>
+                    </div>
+                    
+                    <!-- 最佳K值分析 -->
+                    <div class="image-card bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                                <i class="fa fa-line-chart text-purple-600 mr-2"></i>
+                                最佳K值分析
+                            </h3>
+                            <span class="text-sm text-gray-500">optimal_k_analysis.png</span>
+                        </div>
+                        <div class="h-80">
+                            <img src="optimal_k_analysis.png" alt="最佳K值分析图" class="w-full h-full object-contain">
+                            <div class="mt-2 text-center text-sm text-gray-500">最佳K值分析图，通过手肘法和轮廓系数法确定最优聚类数</div>
+                        </div>
+                        <div class="mt-6 analysis-content" id="k-analysis">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-3">算法验证与最佳聚类数确定</h4>
+                            <div class="space-y-3">
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">手肘法（左图）</h5>
+                                    <p class="text-gray-600">
+                                        • SSE（簇内平方和）随聚类数K增加而递减<br>
+                                        • K=5处曲线斜率明显变缓，形成“手肘”拐点<br>
+                                        • 表明K=5后继续增加聚类数，减少簇内误差的边际效益显著下降
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">轮廓系数法（右图）</h5>
+                                    <p class="text-gray-600">
+                                        • 轮廓系数衡量簇内紧凑性和簇间区分度<br>
+                                        • K=2时系数最高（≈0.5），但簇划分过粗<br>
+                                        • 综合业务需求（细分用户群体），最终选择K=5（平衡簇内紧凑性和业务可解释性）
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">数据异常提示</h5>
+                                    <p class="text-gray-600">
+                                        尽管算法确定K=5，但cluster 3的样本量占比97.28%，显著偏离正常聚类分布，建议：<br>
+                                        • 检查数据预处理阶段的特征标准化是否正确<br>
+                                        • 验证聚类算法初始化参数（如n_init）是否足够避免异常聚类<br>
+                                        • 考虑使用层次聚类等其他算法交叉验证
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="toggle-btn text-primary text-sm flex items-center mt-2" onclick="toggleAnalysis('k-analysis')">
+                            <i class="fa fa-chevron-down mr-1"></i> 查看详细分析
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <!-- 层次聚类树状图 -->
+                    <div class="image-card bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                                <i class="fa fa-sitemap text-success mr-2"></i>
+                                层次聚类树状图
+                            </h3>
+                            <span class="text-sm text-gray-500">hierarchical_clusters.png</span>
+                        </div>
+                        <div class="h-80">
+                            <img src="hierarchical_clusters.png" alt="层次聚类树状图" class="w-full h-full object-contain">
+                            <div class="mt-2 text-center text-sm text-gray-500">层次聚类树状图，展示用户群体的层次合并过程</div>
+                        </div>
+                        <div class="mt-6 analysis-content" id="hierarchical-analysis">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-3">层次结构与聚类验证</h4>
+                            <p class="text-gray-600 mb-4">
+                                树状图展示用户群体的层次合并过程，纵轴距离表示用户间的相似度：
+                            </p>
+                            <div class="space-y-3">
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">层次合并逻辑</h5>
+                                    <p class="text-gray-600">
+                                        • 底部叶节点代表单个用户，顶部根节点代表所有用户<br>
+                                        • 距离越近的用户越先合并，反映用户特征相似度<br>
+                                        • 红色虚线标记K=5，与最佳K值分析结果一致
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">聚类合理性验证</h5>
+                                    <p class="text-gray-600">
+                                        • 树状图显示cluster 3（红色）与其他群体在较早阶段分离，验证其特征差异<br>
+                                        • cluster 2（蓝色）和cluster 4（紫色）形成独立分支，与K-Means结果吻合<br>
+                                        • cluster 1（绿色）因样本量仅1个，在树状图中表现为孤立节点
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">数据异常关联</h5>
+                                    <p class="text-gray-600">
+                                        层次聚类结果显示cluster 3的合并距离显著大于其他群体，印证其特征分布的独特性，可能是：<br>
+                                        • 真实用户行为分布的长尾特征<br>
+                                        • 数据采集时的样本偏差<br>
+                                        • 特征工程阶段未处理好的极端值
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="toggle-btn text-primary text-sm flex items-center mt-2" onclick="toggleAnalysis('hierarchical-analysis')">
+                            <i class="fa fa-chevron-down mr-1"></i> 查看详细分析
+                        </button>
+                    </div>
+                    
+                    <!-- K-Means收敛过程 -->
+                    <div class="image-card bg-white rounded-xl shadow-card p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                                <i class="fa fa-refresh text-accent mr-2"></i>
+                                K-Means收敛过程
+                            </h3>
+                            <span class="text-sm text-gray-500">kmeans_convergence_optimized.png</span>
+                        </div>
+                        <div class="h-80">
+                            <img src="kmeans_convergence_optimized.png" alt="K-Means收敛过程图" class="w-full h-full object-contain">
+                            <div class="mt-2 text-center text-sm text-gray-500">K-Means算法收敛过程图，展示聚类中心的移动轨迹</div>
+                        </div>
+                        <div class="mt-6 analysis-content" id="convergence-analysis">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-3">算法稳定性验证</h4>
+                            <p class="text-gray-600 mb-4">
+                                图表展示K-Means算法在10次迭代中的聚类中心移动过程：
+                            </p>
+                            <div class="space-y-3">
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">迭代过程解析</h5>
+                                    <p class="text-gray-600">
+                                        • 黄色点：PCA降维后的用户数据点<br>
+                                        • 红色星号：聚类中心位置<br>
+                                        • 初始迭代中，cluster 3的中心快速向数据密集区移动（因样本量占比97%）<br>
+                                        • 其他小聚类（如cluster 1、2、4）的中心受样本量影响，移动幅度较大
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">收敛性意义</h5>
+                                    <p class="text-gray-600">
+                                        • 验证K-Means算法在该数据集上的稳定性<br>
+                                        • cluster 3的中心在3次迭代后即趋稳定，其他聚类需更多迭代<br>
+                                        • 建议增加n_init参数值（如n_init=50）以提升小聚类的稳定性
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 class="font-medium text-gray-800 mb-1">工程实现建议</h5>
+                                    <p class="text-gray-600">
+                                        针对极端样本量分布，建议：<br>
+                                        • 采用加权K-Means算法，避免大聚类主导结果<br>
+                                        • 先对数据进行过采样/欠采样，平衡聚类分布<br>
+                                        • 使用DBSCAN等密度聚类算法作为补充分析
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="toggle-btn text-primary text-sm flex items-center mt-2" onclick="toggleAnalysis('convergence-analysis')">
+                            <i class="fa fa-chevron-down mr-1"></i> 查看详细分析
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 业务价值部分 -->
+        <section id="business-value" class="py-12 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">业务价值与应用</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        基于用户聚类分析的商业应用场景与策略建议（结合修正后数据）
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- 价值卡片1 -->
+                    <div class="bg-white rounded-xl shadow-card p-8 border border-gray-100">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fa fa-users text-primary text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">精准用户分群</h3>
+                        <p class="text-gray-600 mb-6">
+                            识别5类典型用户群体，结合样本量差异制定策略：<br>
+                            • 针对超级活跃用户（cluster 2，16人）开展一对一运营<br>
+                            • 重点唤醒低活跃度用户（cluster 3，193万+）提升整体活跃度<br>
+                            • 培育中等互动用户（cluster 4，976人）向核心用户转化
+                        </p>
+                        <a href="#" class="inline-flex items-center text-primary font-medium">
+                            了解更多 <i class="fa fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- 价值卡片2 -->
+                    <div class="bg-white rounded-xl shadow-card p-8 border border-gray-100">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fa fa-line-chart text-success text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">产品功能优化</h3>
+                        <p class="text-gray-600 mb-6">
+                            基于特征差异与样本量优化产品设计：<br>
+                            • 为超级活跃用户（cluster 2）开发专属创作工具<br>
+                            • 为低活跃度用户（cluster 3）简化操作流程<br>
+                            • 为中等互动用户（cluster 4）增加成长激励体系
+                        </p>
+                        <a href="#" class="inline-flex items-center text-primary font-medium">
+                            了解更多 <i class="fa fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- 价值卡片3 -->
+                    <div class="bg-white rounded-xl shadow-card p-8 border border-gray-100">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                            <i class="fa fa-bullhorn text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">精准营销推广</h3>
+                        <p class="text-gray-600 mb-6">
+                            基于样本量与特征制定营销策略：<br>
+                            • 超级活跃用户（cluster 2）：品牌大使计划<br>
+                            • 低活跃度用户（cluster 3）：批量推送个性化召回券<br>
+                            • 中等互动用户（cluster 4）：定向邀请参与新品体验
+                        </p>
+                        <a href="#" class="inline-flex items-center text-primary font-medium">
+                            了解更多 <i class="fa fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-card p-8 border border-gray-100 mt-12">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fa fa-lightbulb-o text-yellow-500 mr-2"></i>
+                        数据驱动的运营策略案例
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-check-circle text-green-500 mr-2"></i>
+                                超级活跃用户专项运营
+                            </h4>
+                            <p class="text-gray-600 mb-4">
+                                针对cluster 2（16人）推出"Yelp超级评论家"计划：<br>
+                                • 专属客服对接<br>
+                                • 线下活动优先邀请<br>
+                                • 评论置顶特权<br>
+                                <span class="font-medium text-gray-900">预期效果：</span>带动平台整体评论量提升5-8%
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-check-circle text-green-500 mr-2"></i>
+                                低活跃用户唤醒工程
+                            </h4>
+                            <p class="text-gray-600 mb-4">
+                                针对cluster 3（193万+）实施分层唤醒策略：<br>
+                                • 近30天未活跃：推送"附近高评分商家"通知<br>
+                                • 近90天未活跃：赠送首次评论积分奖励<br>
+                                • 近180天未活跃：标记为沉睡用户，定期批量激活<br>
+                                <span class="font-medium text-gray-900">预期效果：</span>30天内唤醒率提升3-5%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 总结分析部分 -->
+        <section id="summary" class="py-12 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">总结与展望</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        基于Yelp用户数据的聚类分析总结与未来研究方向（含数据异常处理建议）
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-card p-8 border border-gray-100 mb-12">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fa fa-file-text-o text-secondary mr-2"></i>
+                        分析结论总结
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <i class="fa fa-check text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">用户群体特征显著分化</h4>
+                                <p class="text-gray-600">
+                                    通过5大特征维度成功识别5类用户群体，其中cluster 3（97.28%）与其他群体存在显著特征差异，需特别关注数据分布合理性
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                                    <i class="fa fa-check text-success"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">聚类算法稳定性验证</h4>
+                                <p class="text-gray-600">
+                                    手肘法与轮廓系数法支持K=5的合理性，但极端样本量分布（如cluster 3）可能影响小聚类的稳定性，建议补充其他算法验证
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                                    <i class="fa fa-check text-purple-600"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">业务应用需考虑数据偏差</h4>
+                                <p class="text-gray-600">
+                                    针对cluster 3的超大样本量，业务策略应分为两部分：维护核心少量活跃用户，重点唤醒大量低活跃用户
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-xl p-8 border border-gray-100">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fa fa-rocket text-accent mr-2"></i>
+                        未来研究方向
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-100">
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-user-plus text-primary mr-2"></i>
+                                数据预处理优化
+                            </h4>
+                            <p class="text-gray-600">
+                                针对极端样本量问题，引入：<br>
+                                • 分层抽样技术平衡聚类分布<br>
+                                • 特征重要性分析识别关键驱动因素<br>
+                                • 异常值检测与处理机制
+                            </p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg border border-gray-100">
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-line-chart text-success mr-2"></i>
+                                混合聚类算法研究
+                            </h4>
+                            <p class="text-gray-600">
+                                结合：<br>
+                                • K-Means与DBSCAN的混合算法<br>
+                                • 层次聚类与K-Means的集成方法<br>
+                                • 针对极端分布的加权聚类算法
+                            </p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg border border-gray-100">
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-link text-purple-600 mr-2"></i>
+                                业务场景适配研究
+                            </h4>
+                            <p class="text-gray-600">
+                                探索：<br>
+                                • 基于样本量的动态策略权重调整<br>
+                                • 小聚类用户的个性化运营方案<br>
+                                • 大聚类用户的批量激活机制
+                            </p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg border border-gray-100">
+                            <h4 class="font-semibold text-gray-900 mb-3 flex items-center">
+                                <i class="fa fa-cogs text-warning mr-2"></i>
+                                实时监控系统构建
+                            </h4>
+                            <p class="text-gray-600">
+                                开发：<br>
+                                • 聚类分布实时监控仪表盘<br>
+                                • 异常聚类自动预警机制<br>
+                                • 动态调整的聚类算法参数优化系统
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</main>
+
+    <!-- JavaScript -->
+    <script>
+        // 导航栏滚动效果
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-white', 'shadow-md');
+                navbar.classList.remove('bg-white/90');
+            } else {
+                navbar.classList.add('bg-white/90');
+                navbar.classList.remove('bg-white', 'shadow-md');
+            }
+        });
+        // 移动端菜单切换
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        // 分析内容展开/收起
+        function toggleAnalysis(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('active');
+            const btn = document.querySelector(`[onclick="toggleAnalysis('${id}')"]`);
+            const icon = btn.querySelector('i');
+            if (content.classList.contains('active')) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+                btn.innerHTML = '<i class="fa fa-chevron-up mr-1"></i> 收起分析';
+            } else {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+                btn.innerHTML = '<i class="fa fa-chevron-down mr-1"></i> 查看详细分析';
+            }
+        }
+
+        // 图片点击放大功能
+        document.addEventListener('DOMContentLoaded', function() {
+            // 给所有分析图片添加点击事件
+            document.querySelectorAll('img[src$=".png"], img[src$=".jpg"], img[src$=".jpeg"], img[src$=".webp"], img[src$=".gif"], img[src$=".svg"]').forEach(function(img) {
+                img.style.cursor = 'zoom-in';
+                img.addEventListener('click', function() {
+                    showImageModal(img.src, img.alt || '图片预览');
+                });
+            });
+        });
+
+        // 创建图片放大弹窗
+        function showImageModal(src, alt) {
+            // 如果已存在弹窗，先移除
+            let oldModal = document.getElementById('image-modal');
+            if (oldModal) oldModal.remove();
+
+            let modal = document.createElement('div');
+            modal.id = 'image-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = 0;
+            modal.style.left = 0;
+            modal.style.width = '100vw';
+            modal.style.height = '100vh';
+            modal.style.background = 'rgba(0,0,0,0.7)';
+            modal.style.display = 'flex';
+            modal.style.alignItems = 'center';
+            modal.style.justifyContent = 'center';
+            modal.style.zIndex = 9999;
+            modal.innerHTML = `
+                <div style="position:relative;max-width:90vw;max-height:90vh;">
+                    <img src="${src}" alt="${alt}" style="max-width:90vw;max-height:80vh;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.3);background:#fff;" />
+                    <button id="close-image-modal" style="position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.5);color:#fff;border:none;border-radius:50%;width:36px;height:36px;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;">
+                        &times;
+                    </button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            // 关闭按钮
+            document.getElementById('close-image-modal').onclick = function() {
+                modal.remove();
+            };
+            // 点击遮罩关闭
+            modal.onclick = function(e) {
+                if (e.target === modal) modal.remove();
+            };
+        }
+    </script>
+</body>
+</html>
